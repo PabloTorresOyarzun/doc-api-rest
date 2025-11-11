@@ -1,0 +1,7 @@
+# requirements.txt
+PyMuPDF
+python-doctr[torch]
+opencv-python
+numpy
+requests
+python-dotenv

@@ -1,0 +1,40 @@
+# Archivos de entorno y secretos
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+.DS_Store # Archivo de metadatos de macOS
+
+# Directorios y archivos de dependencias
+/node_modules
+/vendor
+/build
+/dist
+/out
+/public/build # Común en proyectos frontend/Laravel
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+
+# Directorios y archivos de logs y temporales
+/log
+/tmp
+*.log
+
+# Directorios de IDEs (opcional, pero recomendado)
+.idea/ # Directorio de configuración de IntelliJ/WebStorm
+.vscode/ # Directorio de configuración de VS Code
+*.iml
+
+# Archivos de compilación específicos de lenguajes/frameworks (Ejemplos)
+*.class # Java
+__pycache__/ # Python
+*.pyc
+/coverage # Directorio de reportes de cobertura de tests
+
+# Ignorar archivos de paquetes
+*.zip
+*.tar
+*.rar

@@ -1,0 +1,10329 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2025-08-21T19:56:32Z",
+	"lastUpdatedDateTime": "2025-08-21T19:56:35Z",
+	"analyzeResult": {
+		"apiVersion": "2024-11-30",
+		"modelId": "prebuilt-layout",
+		"stringIndexType": "utf16CodeUnit",
+		"content": "TPS - VALPARAISO -\nTerminal Pacifico Sur Valparaíso S.A. CASA MATRIZ: Antonio Varas #2, piso 3, Valparaíso Fono: +56(32) 2275800\nGIRO: DESARROLLO, MANTENCIÓN Y EXPLOTACIÓN DEL FRENTE ATRAQUE Nº 1 DE LA EMPRESA PORTUARIA VALPARAÍSO, DESARROLLAR GIRO DE EMPRESA MUELLAJE Y ALMACENAMIENTO\nR.U.T. 96.908.870- 3 FACTURA ELECTRÓNICA N° 00526876\nS.I.I. - VALPARAÍSO\nSUCURSAL:\nFundo Quebrada Verde S/N, Dpto 12. Camino La Pólvora, Valparaíso\nFono: +56(32) 2531366\nValparaíso, 11 de julio de 2025\nSeñor(es):\nCOMERCIALIZADORA DE CONFITES CHOCOL FACT\nDirección:\nGAVARINO 8481\nComuna:\nSAN ANTONIO\nGiro:\nVENTA AL POR MENOR EN COMERCIOS ESPECIAL\nOFA:\n1141124 / VAP /\nR.U.T .:\n76.691.181-1\nFecha Vencimiento:\n15-07-2025\nCiudad:\nSAN ANTONIO\nOC Ref .:\nNave:\nMSC TAKORADI VIII (25-0284)\nSolicitante: AGENCIA DE ADUANA JUAN LEON VALENZU COMP\nR.U.T .:\n85.141.900-4\nDomicilo: PRAT 856\nSSE:\nDetalle\nCantidad\nUnidad\nTarifa USD\nMonto CLP\nMonto USD\nTRASLADO DOCUMENTAL PARA CONTENEDOR DIRECTO DIFERIDO MSDU9032903\n1\nC40\n13,00\n12.356\n13,00\nSEGURIDAD A LA CARGA DE CONTENEDORES MSDU9032903\n1\nC40\n18,00\n17.108\n18,00\nTPS VALPARAÍSO\nSON: TREINTA Y SEIS CON 89 / 100 DOLARES\nTerminal Pacífico Sur Valparaíso S.A posee un Modelo de Prevención de Delitos. El cliente y sus representantes no cometerán delitos de corrupción establecidos en la Ley 20.393 ni cualquier otro que se incorpore a futuro en la Ley indicada. El cliente denunciará en caso que se observe cualquier delito de corrupción contenido en dicha Ley a través del siguiente Canal de Denuncias: https://www.eticatps.cl.\nEquivalencia en otra moneda:\nNETO\n$ 29.464\nUSD 31,00\nI.V.A. (19%)\n$ 5.598\nUSD 5,89\nTOTAL\n$ 35.062\nUSD T/C: 950,43\n36,89\nTimbre Electrónico SII\nRes. 80 de 2014 Verifique documento: www.sii.cl\n2710CLP74150000076691181100000000526876\nORIGINAL",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"angle": -0.010700000450015068,
+				"width": 8.5,
+				"height": 11,
+				"unit": "inch",
+				"words": [
+					{
+						"content": "TPS",
+						"polygon": [
+							0.2559,
+							0.2097,
+							2.1969,
+							0.2048,
+							2.1969,
+							0.8139,
+							0.2581,
+							0.8193
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 0,
+							"length": 3
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							0.2707,
+							0.843,
+							0.3997,
+							0.8475,
+							0.3999,
+							1.0011,
+							0.2708,
+							0.997
+						],
+						"confidence": 0.953,
+						"span": {
+							"offset": 4,
+							"length": 1
+						}
+					},
+					{
+						"content": "VALPARAISO",
+						"polygon": [
+							0.6011,
+							0.8487,
+							1.8382,
+							0.8379,
+							1.8391,
+							0.9993,
+							0.6012,
+							1.0049
+						],
+						"confidence": 0.918,
+						"span": {
+							"offset": 6,
+							"length": 10
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							1.9002,
+							0.8378,
+							2.1914,
+							0.8382,
+							2.1914,
+							0.9963,
+							1.9012,
+							0.9967
+						],
+						"confidence": 0.744,
+						"span": {
+							"offset": 17,
+							"length": 1
+						}
+					},
+					{
+						"content": "Terminal",
+						"polygon": [
+							0.2303,
+							1.0374,
+							0.6954,
+							1.0367,
+							0.6956,
+							1.1584,
+							0.2306,
+							1.1547
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 19,
+							"length": 8
+						}
+					},
+					{
+						"content": "Pacifico",
+						"polygon": [
+							0.7357,
+							1.0366,
+							1.1545,
+							1.0366,
+							1.1545,
+							1.16,
+							0.7358,
+							1.1586
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 28,
+							"length": 8
+						}
+					},
+					{
+						"content": "Sur",
+						"polygon": [
+							1.1907,
+							1.0367,
+							1.3739,
+							1.0357,
+							1.3739,
+							1.1612,
+							1.1908,
+							1.1602
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 37,
+							"length": 3
+						}
+					},
+					{
+						"content": "Valparaíso",
+						"polygon": [
+							1.4021,
+							1.0359,
+							1.9639,
+							1.0358,
+							1.9638,
+							1.1607,
+							1.4021,
+							1.1613
+						],
+						"confidence": 0.687,
+						"span": {
+							"offset": 41,
+							"length": 10
+						}
+					},
+					{
+						"content": "S.A.",
+						"polygon": [
+							2.0001,
+							1.0359,
+							2.2191,
+							1.0353,
+							2.2191,
+							1.1593,
+							2,
+							1.1604
+						],
+						"confidence": 0.985,
+						"span": {
+							"offset": 52,
+							"length": 4
+						}
+					},
+					{
+						"content": "CASA",
+						"polygon": [
+							0.2337,
+							1.1644,
+							0.5532,
+							1.1654,
+							0.553,
+							1.2817,
+							0.2336,
+							1.2808
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 57,
+							"length": 4
+						}
+					},
+					{
+						"content": "MATRIZ:",
+						"polygon": [
+							0.5891,
+							1.1655,
+							1.0503,
+							1.1658,
+							1.05,
+							1.281,
+							0.5889,
+							1.2814
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 62,
+							"length": 7
+						}
+					},
+					{
+						"content": "Antonio",
+						"polygon": [
+							0.2297,
+							1.3169,
+							0.5676,
+							1.3181,
+							0.5671,
+							1.4312,
+							0.2296,
+							1.4279
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 70,
+							"length": 7
+						}
+					},
+					{
+						"content": "Varas",
+						"polygon": [
+							0.5939,
+							1.318,
+							0.8454,
+							1.3171,
+							0.845,
+							1.4321,
+							0.5934,
+							1.4315
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 78,
+							"length": 5
+						}
+					},
+					{
+						"content": "#2,",
+						"polygon": [
+							0.8717,
+							1.3173,
+							1.005,
+							1.3174,
+							1.0046,
+							1.4332,
+							0.8713,
+							1.4323
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 84,
+							"length": 3
+						}
+					},
+					{
+						"content": "piso",
+						"polygon": [
+							1.0388,
+							1.3174,
+							1.2152,
+							1.3175,
+							1.2145,
+							1.4338,
+							1.0384,
+							1.4333
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 88,
+							"length": 4
+						}
+					},
+					{
+						"content": "3,",
+						"polygon": [
+							1.2434,
+							1.3175,
+							1.3166,
+							1.3175,
+							1.3159,
+							1.4338,
+							1.2427,
+							1.4338
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 93,
+							"length": 2
+						}
+					},
+					{
+						"content": "Valparaíso",
+						"polygon": [
+							1.3485,
+							1.3175,
+							1.8262,
+							1.3178,
+							1.8262,
+							1.4322,
+							1.3478,
+							1.4336
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 96,
+							"length": 10
+						}
+					},
+					{
+						"content": "Fono:",
+						"polygon": [
+							0.2312,
+							1.4322,
+							0.4816,
+							1.4337,
+							0.4812,
+							1.552,
+							0.2313,
+							1.5511
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 107,
+							"length": 5
+						}
+					},
+					{
+						"content": "+56(32)",
+						"polygon": [
+							0.5143,
+							1.4336,
+							0.8494,
+							1.4334,
+							0.849,
+							1.5505,
+							0.514,
+							1.5519
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 113,
+							"length": 7
+						}
+					},
+					{
+						"content": "2275800",
+						"polygon": [
+							0.8783,
+							1.4334,
+							1.2712,
+							1.4327,
+							1.2706,
+							1.5476,
+							0.8779,
+							1.5505
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 121,
+							"length": 7
+						}
+					},
+					{
+						"content": "GIRO:",
+						"polygon": [
+							2.2442,
+							0.1856,
+							2.5231,
+							0.1847,
+							2.5227,
+							0.2971,
+							2.244,
+							0.2976
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 129,
+							"length": 5
+						}
+					},
+					{
+						"content": "DESARROLLO,",
+						"polygon": [
+							2.5602,
+							0.1847,
+							3.2591,
+							0.1831,
+							3.2586,
+							0.297,
+							2.5599,
+							0.2971
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 135,
+							"length": 11
+						}
+					},
+					{
+						"content": "MANTENCIÓN",
+						"polygon": [
+							3.2944,
+							0.183,
+							3.9431,
+							0.1822,
+							3.9426,
+							0.2957,
+							3.2939,
+							0.2968
+						],
+						"confidence": 0.56,
+						"span": {
+							"offset": 147,
+							"length": 10
+						}
+					},
+					{
+						"content": "Y",
+						"polygon": [
+							3.9747,
+							0.182,
+							4.0398,
+							0.1816,
+							4.0393,
+							0.2956,
+							3.9742,
+							0.2957
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 158,
+							"length": 1
+						}
+					},
+					{
+						"content": "EXPLOTACIÓN",
+						"polygon": [
+							4.0714,
+							0.1815,
+							4.7812,
+							0.1795,
+							4.7812,
+							0.2953,
+							4.0709,
+							0.2956
+						],
+						"confidence": 0.611,
+						"span": {
+							"offset": 160,
+							"length": 11
+						}
+					},
+					{
+						"content": "DEL",
+						"polygon": [
+							2.2445,
+							0.3,
+							2.4429,
+							0.2999,
+							2.4429,
+							0.4074,
+							2.2446,
+							0.4072
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 172,
+							"length": 3
+						}
+					},
+					{
+						"content": "FRENTE",
+						"polygon": [
+							2.4746,
+							0.2999,
+							2.8556,
+							0.2978,
+							2.8556,
+							0.4058,
+							2.4745,
+							0.4072
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 176,
+							"length": 6
+						}
+					},
+					{
+						"content": "ATRAQUE",
+						"polygon": [
+							2.8837,
+							0.2977,
+							3.3631,
+							0.2983,
+							3.3631,
+							0.4059,
+							2.8837,
+							0.406
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 183,
+							"length": 7
+						}
+					},
+					{
+						"content": "Nº",
+						"polygon": [
+							3.3965,
+							0.298,
+							3.5001,
+							0.2974,
+							3.5,
+							0.4062,
+							3.3964,
+							0.406
+						],
+						"confidence": 0.205,
+						"span": {
+							"offset": 191,
+							"length": 2
+						}
+					},
+					{
+						"content": "1",
+						"polygon": [
+							3.5334,
+							0.2975,
+							3.5703,
+							0.2976,
+							3.5702,
+							0.4059,
+							3.5333,
+							0.4061
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 194,
+							"length": 1
+						}
+					},
+					{
+						"content": "DE",
+						"polygon": [
+							3.6142,
+							0.2977,
+							3.7424,
+							0.2985,
+							3.7423,
+							0.4055,
+							3.6142,
+							0.4058
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 196,
+							"length": 2
+						}
+					},
+					{
+						"content": "LA",
+						"polygon": [
+							3.7758,
+							0.2988,
+							3.9004,
+							0.2989,
+							3.9004,
+							0.4044,
+							3.7757,
+							0.4055
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 199,
+							"length": 2
+						}
+					},
+					{
+						"content": "EMPRESA",
+						"polygon": [
+							3.932,
+							0.2988,
+							4.4215,
+							0.2973,
+							4.4215,
+							0.4043,
+							3.932,
+							0.4041
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 202,
+							"length": 7
+						}
+					},
+					{
+						"content": "PORTUARIA",
+						"polygon": [
+							2.2447,
+							0.4137,
+							2.8281,
+							0.4115,
+							2.8281,
+							0.5227,
+							2.2447,
+							0.5225
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 210,
+							"length": 9
+						}
+					},
+					{
+						"content": "VALPARAÍSO,",
+						"polygon": [
+							2.8519,
+							0.4113,
+							3.514,
+							0.4103,
+							3.5139,
+							0.5227,
+							2.8519,
+							0.5227
+						],
+						"confidence": 0.976,
+						"span": {
+							"offset": 220,
+							"length": 11
+						}
+					},
+					{
+						"content": "DESARROLLAR",
+						"polygon": [
+							3.5488,
+							0.4103,
+							4.2896,
+							0.4108,
+							4.2894,
+							0.5226,
+							3.5486,
+							0.5226
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 232,
+							"length": 11
+						}
+					},
+					{
+						"content": "GIRO",
+						"polygon": [
+							4.317,
+							0.4108,
+							4.5621,
+							0.4107,
+							4.5619,
+							0.523,
+							4.3169,
+							0.5226
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 244,
+							"length": 4
+						}
+					},
+					{
+						"content": "DE",
+						"polygon": [
+							4.595,
+							0.4106,
+							4.7425,
+							0.4103,
+							4.7425,
+							0.5237,
+							4.5948,
+							0.5231
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 249,
+							"length": 2
+						}
+					},
+					{
+						"content": "EMPRESA",
+						"polygon": [
+							2.2428,
+							0.5276,
+							2.7286,
+							0.5251,
+							2.7284,
+							0.6337,
+							2.2429,
+							0.6362
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 252,
+							"length": 7
+						}
+					},
+					{
+						"content": "MUELLAJE",
+						"polygon": [
+							2.7605,
+							0.5248,
+							3.2782,
+							0.5252,
+							3.278,
+							0.6333,
+							2.7603,
+							0.6336
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 260,
+							"length": 8
+						}
+					},
+					{
+						"content": "Y",
+						"polygon": [
+							3.3048,
+							0.5251,
+							3.3704,
+							0.5249,
+							3.3701,
+							0.6329,
+							3.3046,
+							0.6332
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 269,
+							"length": 1
+						}
+					},
+					{
+						"content": "ALMACENAMIENTO",
+						"polygon": [
+							3.3952,
+							0.5248,
+							4.3441,
+							0.5249,
+							4.3441,
+							0.6319,
+							3.3949,
+							0.6327
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 271,
+							"length": 14
+						}
+					},
+					{
+						"content": "R.U.T.",
+						"polygon": [
+							6.0734,
+							0.2686,
+							6.553,
+							0.267,
+							6.5526,
+							0.4318,
+							6.0727,
+							0.4318
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 286,
+							"length": 6
+						}
+					},
+					{
+						"content": "96.908.870-",
+						"polygon": [
+							6.6099,
+							0.2672,
+							7.4987,
+							0.2674,
+							7.4982,
+							0.4318,
+							6.6095,
+							0.4318
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 293,
+							"length": 11
+						}
+					},
+					{
+						"content": "3",
+						"polygon": [
+							7.5475,
+							0.2675,
+							7.6533,
+							0.2666,
+							7.6533,
+							0.4318,
+							7.547,
+							0.4318
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 305,
+							"length": 1
+						}
+					},
+					{
+						"content": "FACTURA",
+						"polygon": [
+							5.8202,
+							0.4936,
+							6.6383,
+							0.4887,
+							6.6382,
+							0.6699,
+							5.8199,
+							0.6699
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 307,
+							"length": 7
+						}
+					},
+					{
+						"content": "ELECTRÓNICA",
+						"polygon": [
+							6.6921,
+							0.4889,
+							7.9023,
+							0.4857,
+							7.9023,
+							0.6699,
+							6.692,
+							0.6699
+						],
+						"confidence": 0.95,
+						"span": {
+							"offset": 315,
+							"length": 11
+						}
+					},
+					{
+						"content": "N°",
+						"polygon": [
+							6.3635,
+							0.7292,
+							6.5555,
+							0.7292,
+							6.5553,
+							0.8886,
+							6.3635,
+							0.8886
+						],
+						"confidence": 0.195,
+						"span": {
+							"offset": 327,
+							"length": 2
+						}
+					},
+					{
+						"content": "00526876",
+						"polygon": [
+							6.6108,
+							0.7292,
+							7.36,
+							0.728,
+							7.36,
+							0.8895,
+							6.6105,
+							0.8888
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 330,
+							"length": 8
+						}
+					},
+					{
+						"content": "S.I.I.",
+						"polygon": [
+							6.0381,
+							1.002,
+							6.3794,
+							0.9999,
+							6.3795,
+							1.1782,
+							6.0382,
+							1.1792
+						],
+						"confidence": 0.944,
+						"span": {
+							"offset": 339,
+							"length": 6
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							6.4323,
+							0.9994,
+							6.5353,
+							0.999,
+							6.5355,
+							1.1779,
+							6.4325,
+							1.1783
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 346,
+							"length": 1
+						}
+					},
+					{
+						"content": "VALPARAÍSO",
+						"polygon": [
+							6.5765,
+							0.9992,
+							7.6755,
+							0.9927,
+							7.6755,
+							1.1747,
+							6.5767,
+							1.1774
+						],
+						"confidence": 0.977,
+						"span": {
+							"offset": 348,
+							"length": 10
+						}
+					},
+					{
+						"content": "SUCURSAL:",
+						"polygon": [
+							3.0027,
+							1.1592,
+							3.6689,
+							1.159,
+							3.6689,
+							1.2754,
+							3.003,
+							1.2742
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 359,
+							"length": 9
+						}
+					},
+					{
+						"content": "Fundo",
+						"polygon": [
+							3.001,
+							1.3101,
+							3.2838,
+							1.3105,
+							3.2837,
+							1.4258,
+							3.0009,
+							1.4243
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 369,
+							"length": 5
+						}
+					},
+					{
+						"content": "Quebrada",
+						"polygon": [
+							3.3113,
+							1.3104,
+							3.7415,
+							1.309,
+							3.7408,
+							1.4275,
+							3.3112,
+							1.4257
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 375,
+							"length": 8
+						}
+					},
+					{
+						"content": "Verde",
+						"polygon": [
+							3.769,
+							1.3089,
+							4.0283,
+							1.3087,
+							4.0276,
+							1.4285,
+							3.7682,
+							1.4275
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 384,
+							"length": 5
+						}
+					},
+					{
+						"content": "S/N,",
+						"polygon": [
+							4.0597,
+							1.3087,
+							4.2385,
+							1.3083,
+							4.2378,
+							1.4293,
+							4.0591,
+							1.4286
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 390,
+							"length": 4
+						}
+					},
+					{
+						"content": "Dpto",
+						"polygon": [
+							4.2758,
+							1.3082,
+							4.4781,
+							1.3077,
+							4.4772,
+							1.4293,
+							4.2751,
+							1.4295
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 395,
+							"length": 4
+						}
+					},
+					{
+						"content": "12.",
+						"polygon": [
+							4.5115,
+							1.3077,
+							4.6372,
+							1.3076,
+							4.6363,
+							1.4301,
+							4.5105,
+							1.4293
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 400,
+							"length": 3
+						}
+					},
+					{
+						"content": "Camino",
+						"polygon": [
+							4.6686,
+							1.3076,
+							4.9888,
+							1.3076,
+							4.9884,
+							1.43,
+							4.6677,
+							1.4303
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 404,
+							"length": 6
+						}
+					},
+					{
+						"content": "La",
+						"polygon": [
+							5.0124,
+							1.3078,
+							5.1342,
+							1.3086,
+							5.1335,
+							1.4307,
+							5.0119,
+							1.4301
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 411,
+							"length": 2
+						}
+					},
+					{
+						"content": "Pólvora,",
+						"polygon": [
+							5.1676,
+							1.3088,
+							5.5172,
+							1.3088,
+							5.5165,
+							1.4301,
+							5.1668,
+							1.4308
+						],
+						"confidence": 0.937,
+						"span": {
+							"offset": 414,
+							"length": 8
+						}
+					},
+					{
+						"content": "Valparaíso",
+						"polygon": [
+							5.5447,
+							1.3089,
+							6.0208,
+							1.3088,
+							6.0208,
+							1.4301,
+							5.544,
+							1.4301
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 423,
+							"length": 10
+						}
+					},
+					{
+						"content": "Fono:",
+						"polygon": [
+							3.0027,
+							1.4299,
+							3.2535,
+							1.43,
+							3.2533,
+							1.5426,
+							3.0031,
+							1.5421
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 434,
+							"length": 5
+						}
+					},
+					{
+						"content": "+56(32)",
+						"polygon": [
+							3.285,
+							1.43,
+							3.6212,
+							1.4297,
+							3.621,
+							1.543,
+							3.2849,
+							1.5427
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 440,
+							"length": 7
+						}
+					},
+					{
+						"content": "2531366",
+						"polygon": [
+							3.6491,
+							1.4296,
+							4.0397,
+							1.4298,
+							4.0397,
+							1.5436,
+							3.6489,
+							1.5433
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 448,
+							"length": 7
+						}
+					},
+					{
+						"content": "Valparaíso,",
+						"polygon": [
+							6.7132,
+							1.5718,
+							7.2816,
+							1.5711,
+							7.2818,
+							1.6995,
+							6.7134,
+							1.6995
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 456,
+							"length": 11
+						}
+					},
+					{
+						"content": "11",
+						"polygon": [
+							7.3561,
+							1.571,
+							7.4541,
+							1.5706,
+							7.4542,
+							1.6995,
+							7.3563,
+							1.6995
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 468,
+							"length": 2
+						}
+					},
+					{
+						"content": "de",
+						"polygon": [
+							7.503,
+							1.5704,
+							7.6244,
+							1.5693,
+							7.6245,
+							1.6995,
+							7.5032,
+							1.6995
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 471,
+							"length": 2
+						}
+					},
+					{
+						"content": "julio",
+						"polygon": [
+							7.6499,
+							1.5693,
+							7.8522,
+							1.5692,
+							7.8523,
+							1.6989,
+							7.65,
+							1.6995
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 474,
+							"length": 5
+						}
+					},
+					{
+						"content": "de",
+						"polygon": [
+							7.8841,
+							1.569,
+							8.0076,
+							1.5687,
+							8.0077,
+							1.6989,
+							7.8842,
+							1.699
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 480,
+							"length": 2
+						}
+					},
+					{
+						"content": "2025",
+						"polygon": [
+							8.0395,
+							1.5689,
+							8.3008,
+							1.566,
+							8.3008,
+							1.6991,
+							8.0396,
+							1.6986
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 483,
+							"length": 4
+						}
+					},
+					{
+						"content": "Señor(es):",
+						"polygon": [
+							0.3283,
+							1.7765,
+							0.891,
+							1.7813,
+							0.891,
+							1.908,
+							0.3283,
+							1.9028
+						],
+						"confidence": 0.979,
+						"span": {
+							"offset": 488,
+							"length": 10
+						}
+					},
+					{
+						"content": "COMERCIALIZADORA",
+						"polygon": [
+							1.005,
+							1.776,
+							2.1704,
+							1.7739,
+							2.1702,
+							1.8988,
+							1.0051,
+							1.8988
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 499,
+							"length": 16
+						}
+					},
+					{
+						"content": "DE",
+						"polygon": [
+							2.2036,
+							1.7739,
+							2.3508,
+							1.7731,
+							2.3507,
+							1.8988,
+							2.2034,
+							1.8988
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 516,
+							"length": 2
+						}
+					},
+					{
+						"content": "CONFITES",
+						"polygon": [
+							2.3861,
+							1.7729,
+							2.9418,
+							1.7716,
+							2.9418,
+							1.8988,
+							2.3859,
+							1.8988
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 519,
+							"length": 8
+						}
+					},
+					{
+						"content": "CHOCOL",
+						"polygon": [
+							2.9792,
+							1.7714,
+							3.4499,
+							1.771,
+							3.4498,
+							1.8988,
+							2.9791,
+							1.8988
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 528,
+							"length": 6
+						}
+					},
+					{
+						"content": "FACT",
+						"polygon": [
+							3.4851,
+							1.7709,
+							3.7838,
+							1.77,
+							3.7838,
+							1.8971,
+							3.485,
+							1.8987
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 535,
+							"length": 4
+						}
+					},
+					{
+						"content": "Dirección:",
+						"polygon": [
+							0.3328,
+							1.941,
+							0.891,
+							1.945,
+							0.891,
+							2.059,
+							0.3327,
+							2.0575
+						],
+						"confidence": 0.977,
+						"span": {
+							"offset": 540,
+							"length": 10
+						}
+					},
+					{
+						"content": "GAVARINO",
+						"polygon": [
+							1.0064,
+							1.9382,
+							1.5987,
+							1.9372,
+							1.5983,
+							2.0539,
+							1.0062,
+							2.0539
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 551,
+							"length": 8
+						}
+					},
+					{
+						"content": "8481",
+						"polygon": [
+							1.6333,
+							1.9374,
+							1.876,
+							1.9389,
+							1.876,
+							2.0539,
+							1.6329,
+							2.0539
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 560,
+							"length": 4
+						}
+					},
+					{
+						"content": "Comuna:",
+						"polygon": [
+							0.333,
+							2.1,
+							0.8301,
+							2.1048,
+							0.8301,
+							2.2116,
+							0.3326,
+							2.2097
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 565,
+							"length": 7
+						}
+					},
+					{
+						"content": "SAN",
+						"polygon": [
+							1.0064,
+							2.0942,
+							1.2367,
+							2.0929,
+							1.2365,
+							2.2108,
+							1.0064,
+							2.2094
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 573,
+							"length": 3
+						}
+					},
+					{
+						"content": "ANTONIO",
+						"polygon": [
+							1.271,
+							2.0932,
+							1.7908,
+							2.0945,
+							1.7906,
+							2.2087,
+							1.2708,
+							2.2105
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 577,
+							"length": 7
+						}
+					},
+					{
+						"content": "Giro:",
+						"polygon": [
+							0.3353,
+							2.2605,
+							0.6087,
+							2.2618,
+							0.6087,
+							2.368,
+							0.335,
+							2.3657
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 585,
+							"length": 5
+						}
+					},
+					{
+						"content": "VENTA",
+						"polygon": [
+							1.006,
+							2.2498,
+							1.3861,
+							2.2513,
+							1.3862,
+							2.3726,
+							1.0059,
+							2.3716
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 591,
+							"length": 5
+						}
+					},
+					{
+						"content": "AL",
+						"polygon": [
+							1.4124,
+							2.2513,
+							1.5499,
+							2.2505,
+							1.5499,
+							2.3732,
+							1.4125,
+							2.3727
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 597,
+							"length": 2
+						}
+					},
+					{
+						"content": "POR",
+						"polygon": [
+							1.5843,
+							2.2503,
+							1.8209,
+							2.2504,
+							1.8209,
+							2.3733,
+							1.5843,
+							2.3733
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 600,
+							"length": 3
+						}
+					},
+					{
+						"content": "MENOR",
+						"polygon": [
+							1.8573,
+							2.2503,
+							2.2678,
+							2.2499,
+							2.2677,
+							2.3738,
+							1.8572,
+							2.3732
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 604,
+							"length": 5
+						}
+					},
+					{
+						"content": "EN",
+						"polygon": [
+							2.3021,
+							2.2498,
+							2.4457,
+							2.2493,
+							2.4456,
+							2.3741,
+							2.302,
+							2.374
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 610,
+							"length": 2
+						}
+					},
+					{
+						"content": "COMERCIOS",
+						"polygon": [
+							2.4861,
+							2.249,
+							3.1635,
+							2.2478,
+							3.1633,
+							2.3721,
+							2.486,
+							2.3739
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 613,
+							"length": 9
+						}
+					},
+					{
+						"content": "ESPECIAL",
+						"polygon": [
+							3.202,
+							2.248,
+							3.752,
+							2.2472,
+							3.752,
+							2.3718,
+							3.2017,
+							2.372
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 623,
+							"length": 8
+						}
+					},
+					{
+						"content": "OFA:",
+						"polygon": [
+							0.3329,
+							2.4203,
+							0.6198,
+							2.42,
+							0.6194,
+							2.5299,
+							0.3327,
+							2.5284
+						],
+						"confidence": 0.985,
+						"span": {
+							"offset": 632,
+							"length": 4
+						}
+					},
+					{
+						"content": "1141124",
+						"polygon": [
+							1.0136,
+							2.4147,
+							1.4446,
+							2.4152,
+							1.4445,
+							2.5307,
+							1.0137,
+							2.5313
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 637,
+							"length": 7
+						}
+					},
+					{
+						"content": "/",
+						"polygon": [
+							1.4752,
+							2.4151,
+							1.5116,
+							2.4148,
+							1.5115,
+							2.5309,
+							1.4751,
+							2.5304
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 645,
+							"length": 1
+						}
+					},
+					{
+						"content": "VAP",
+						"polygon": [
+							1.5365,
+							2.4146,
+							1.7606,
+							2.4133,
+							1.7602,
+							2.5319,
+							1.5364,
+							2.5313
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 647,
+							"length": 3
+						}
+					},
+					{
+						"content": "/",
+						"polygon": [
+							1.7893,
+							2.4133,
+							1.8372,
+							2.4135,
+							1.8372,
+							2.532,
+							1.7889,
+							2.5318
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 651,
+							"length": 1
+						}
+					},
+					{
+						"content": "R.U.T",
+						"polygon": [
+							5.4007,
+							1.7798,
+							5.6668,
+							1.7807,
+							5.6663,
+							1.8933,
+							5.4005,
+							1.8928
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 653,
+							"length": 5
+						}
+					},
+					{
+						"content": ".:",
+						"polygon": [
+							5.689,
+							1.7808,
+							5.7718,
+							1.7802,
+							5.7718,
+							1.8933,
+							5.6885,
+							1.8933
+						],
+						"confidence": 0.97,
+						"span": {
+							"offset": 659,
+							"length": 2
+						}
+					},
+					{
+						"content": "76.691.181-1",
+						"polygon": [
+							6.5297,
+							1.775,
+							7.194,
+							1.7762,
+							7.194,
+							1.8933,
+							6.5299,
+							1.8933
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 662,
+							"length": 12
+						}
+					},
+					{
+						"content": "Fecha",
+						"polygon": [
+							5.4017,
+							1.9398,
+							5.7242,
+							1.9392,
+							5.7242,
+							2.0585,
+							5.4018,
+							2.0577
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 675,
+							"length": 5
+						}
+					},
+					{
+						"content": "Vencimiento:",
+						"polygon": [
+							5.757,
+							1.9396,
+							6.4635,
+							1.9415,
+							6.4635,
+							2.058,
+							5.757,
+							2.0582
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 681,
+							"length": 12
+						}
+					},
+					{
+						"content": "15-07-2025",
+						"polygon": [
+							6.5368,
+							1.9432,
+							7.1165,
+							1.9416,
+							7.1165,
+							2.0517,
+							6.5367,
+							2.0539
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 694,
+							"length": 10
+						}
+					},
+					{
+						"content": "Ciudad:",
+						"polygon": [
+							5.403,
+							2.0971,
+							5.8271,
+							2.0976,
+							5.8271,
+							2.2089,
+							5.4033,
+							2.2089
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 705,
+							"length": 7
+						}
+					},
+					{
+						"content": "SAN",
+						"polygon": [
+							6.531,
+							2.0927,
+							6.7563,
+							2.0922,
+							6.7564,
+							2.2105,
+							6.5314,
+							2.2111
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 713,
+							"length": 3
+						}
+					},
+					{
+						"content": "ANTONIO",
+						"polygon": [
+							6.7912,
+							2.0924,
+							7.3102,
+							2.0921,
+							7.3102,
+							2.2112,
+							6.7914,
+							2.2106
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 717,
+							"length": 7
+						}
+					},
+					{
+						"content": "OC",
+						"polygon": [
+							5.4006,
+							2.2542,
+							5.5685,
+							2.2557,
+							5.5684,
+							2.3693,
+							5.4005,
+							2.3692
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 725,
+							"length": 2
+						}
+					},
+					{
+						"content": "Ref",
+						"polygon": [
+							5.6096,
+							2.2559,
+							5.7514,
+							2.2568,
+							5.7512,
+							2.3694,
+							5.6093,
+							2.3694
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 728,
+							"length": 3
+						}
+					},
+					{
+						"content": ".:",
+						"polygon": [
+							5.7738,
+							2.2568,
+							5.8604,
+							2.2566,
+							5.8604,
+							2.3694,
+							5.7736,
+							2.3694
+						],
+						"confidence": 0.963,
+						"span": {
+							"offset": 732,
+							"length": 2
+						}
+					},
+					{
+						"content": "Nave:",
+						"polygon": [
+							5.4005,
+							2.4212,
+							5.7165,
+							2.4234,
+							5.7165,
+							2.5299,
+							5.3996,
+							2.5278
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 735,
+							"length": 5
+						}
+					},
+					{
+						"content": "MSC",
+						"polygon": [
+							6.5264,
+							2.4095,
+							6.7798,
+							2.4101,
+							6.7798,
+							2.5397,
+							6.5266,
+							2.5397
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 741,
+							"length": 3
+						}
+					},
+					{
+						"content": "TAKORADI",
+						"polygon": [
+							6.8147,
+							2.4098,
+							7.3738,
+							2.409,
+							7.3738,
+							2.5433,
+							6.8147,
+							2.5397
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 745,
+							"length": 8
+						}
+					},
+					{
+						"content": "VIII",
+						"polygon": [
+							7.4109,
+							2.4087,
+							7.5704,
+							2.4089,
+							7.5704,
+							2.5442,
+							7.4109,
+							2.5434
+						],
+						"confidence": 0.963,
+						"span": {
+							"offset": 754,
+							"length": 4
+						}
+					},
+					{
+						"content": "(25-0284)",
+						"polygon": [
+							7.6119,
+							2.4088,
+							8.1071,
+							2.4108,
+							8.1071,
+							2.5462,
+							7.6119,
+							2.5446
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 759,
+							"length": 9
+						}
+					},
+					{
+						"content": "Solicitante:",
+						"polygon": [
+							0.33,
+							2.7889,
+							0.9289,
+							2.7872,
+							0.9285,
+							2.9119,
+							0.3296,
+							2.9119
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 769,
+							"length": 12
+						}
+					},
+					{
+						"content": "AGENCIA",
+						"polygon": [
+							1.01,
+							2.7868,
+							1.5153,
+							2.7858,
+							1.5148,
+							2.9118,
+							1.0097,
+							2.9119
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 782,
+							"length": 7
+						}
+					},
+					{
+						"content": "DE",
+						"polygon": [
+							1.5486,
+							2.7857,
+							1.6941,
+							2.7851,
+							1.6935,
+							2.9119,
+							1.548,
+							2.9117
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 790,
+							"length": 2
+						}
+					},
+					{
+						"content": "ADUANA",
+						"polygon": [
+							1.7253,
+							2.785,
+							2.1953,
+							2.7842,
+							2.1947,
+							2.9119,
+							1.7246,
+							2.9119
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 793,
+							"length": 6
+						}
+					},
+					{
+						"content": "JUAN",
+						"polygon": [
+							2.2223,
+							2.784,
+							2.5072,
+							2.7833,
+							2.5068,
+							2.9117,
+							2.2217,
+							2.9119
+						],
+						"confidence": 0.985,
+						"span": {
+							"offset": 800,
+							"length": 4
+						}
+					},
+					{
+						"content": "LEON",
+						"polygon": [
+							2.5488,
+							2.7833,
+							2.84,
+							2.7829,
+							2.8394,
+							2.9114,
+							2.5484,
+							2.9116
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 805,
+							"length": 4
+						}
+					},
+					{
+						"content": "VALENZU",
+						"polygon": [
+							2.8753,
+							2.7827,
+							3.3827,
+							2.7825,
+							3.3821,
+							2.9109,
+							2.8748,
+							2.9113
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 810,
+							"length": 7
+						}
+					},
+					{
+						"content": "COMP",
+						"polygon": [
+							3.4222,
+							2.7824,
+							3.763,
+							2.7817,
+							3.763,
+							2.9085,
+							3.4217,
+							2.9108
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 818,
+							"length": 4
+						}
+					},
+					{
+						"content": "R.U.T",
+						"polygon": [
+							5.389,
+							2.7935,
+							5.6539,
+							2.7935,
+							5.6536,
+							2.9064,
+							5.389,
+							2.9064
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 823,
+							"length": 5
+						}
+					},
+					{
+						"content": ".:",
+						"polygon": [
+							5.6759,
+							2.7937,
+							5.7607,
+							2.7935,
+							5.7607,
+							2.9053,
+							5.6757,
+							2.9064
+						],
+						"confidence": 0.971,
+						"span": {
+							"offset": 829,
+							"length": 2
+						}
+					},
+					{
+						"content": "85.141.900-4",
+						"polygon": [
+							6.5279,
+							2.7892,
+							7.1995,
+							2.7905,
+							7.1995,
+							2.9087,
+							6.5282,
+							2.9096
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 832,
+							"length": 12
+						}
+					},
+					{
+						"content": "Domicilo:",
+						"polygon": [
+							0.3343,
+							2.9545,
+							0.8577,
+							2.9583,
+							0.8577,
+							3.0714,
+							0.3344,
+							3.0701
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 845,
+							"length": 9
+						}
+					},
+					{
+						"content": "PRAT",
+						"polygon": [
+							1.0025,
+							2.9546,
+							1.3108,
+							2.9528,
+							1.3106,
+							3.0662,
+							1.0024,
+							3.0655
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 855,
+							"length": 4
+						}
+					},
+					{
+						"content": "856",
+						"polygon": [
+							1.3422,
+							2.954,
+							1.5329,
+							2.9534,
+							1.5329,
+							3.0668,
+							1.342,
+							3.0669
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 860,
+							"length": 3
+						}
+					},
+					{
+						"content": "SSE:",
+						"polygon": [
+							5.3908,
+							2.9544,
+							5.6637,
+							2.9567,
+							5.663,
+							3.0658,
+							5.3906,
+							3.0651
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 864,
+							"length": 4
+						}
+					},
+					{
+						"content": "Detalle",
+						"polygon": [
+							2.2297,
+							3.2789,
+							2.612,
+							3.28,
+							2.612,
+							3.3866,
+							2.2293,
+							3.3862
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 869,
+							"length": 7
+						}
+					},
+					{
+						"content": "Cantidad",
+						"polygon": [
+							4.7197,
+							3.2759,
+							5.2129,
+							3.2761,
+							5.2129,
+							3.3877,
+							4.72,
+							3.388
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 877,
+							"length": 8
+						}
+					},
+					{
+						"content": "Unidad",
+						"polygon": [
+							5.3725,
+							3.2758,
+							5.7718,
+							3.2754,
+							5.7718,
+							3.3866,
+							5.3728,
+							3.3877
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 886,
+							"length": 6
+						}
+					},
+					{
+						"content": "Tarifa",
+						"polygon": [
+							5.9433,
+							3.2738,
+							6.2434,
+							3.2747,
+							6.2439,
+							3.388,
+							5.9439,
+							3.388
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 893,
+							"length": 6
+						}
+					},
+					{
+						"content": "USD",
+						"polygon": [
+							6.2828,
+							3.2747,
+							6.5244,
+							3.2737,
+							6.5244,
+							3.3878,
+							6.2833,
+							3.388
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 900,
+							"length": 3
+						}
+					},
+					{
+						"content": "Monto",
+						"polygon": [
+							6.7357,
+							3.2756,
+							7.0764,
+							3.2748,
+							7.0766,
+							3.388,
+							6.736,
+							3.3912
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 904,
+							"length": 5
+						}
+					},
+					{
+						"content": "CLP",
+						"polygon": [
+							7.1099,
+							3.2749,
+							7.3434,
+							3.2732,
+							7.3434,
+							3.387,
+							7.1101,
+							3.388
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 910,
+							"length": 3
+						}
+					},
+					{
+						"content": "Monto",
+						"polygon": [
+							7.584,
+							3.2755,
+							7.9219,
+							3.2765,
+							7.9222,
+							3.389,
+							7.5845,
+							3.3904
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 914,
+							"length": 5
+						}
+					},
+					{
+						"content": "USD",
+						"polygon": [
+							7.9607,
+							3.2768,
+							8.1956,
+							3.2742,
+							8.1956,
+							3.3878,
+							7.961,
+							3.3886
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 920,
+							"length": 3
+						}
+					},
+					{
+						"content": "TRASLADO",
+						"polygon": [
+							0.2709,
+							3.433,
+							0.7088,
+							3.4308,
+							0.7083,
+							3.5354,
+							0.2707,
+							3.5344
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 924,
+							"length": 8
+						}
+					},
+					{
+						"content": "DOCUMENTAL",
+						"polygon": [
+							0.738,
+							3.4306,
+							1.3218,
+							3.4305,
+							1.3207,
+							3.5363,
+							0.7375,
+							3.5353
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 933,
+							"length": 10
+						}
+					},
+					{
+						"content": "PARA",
+						"polygon": [
+							1.3424,
+							3.4305,
+							1.5863,
+							3.4304,
+							1.5851,
+							3.5355,
+							1.3413,
+							3.5362
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 944,
+							"length": 4
+						}
+					},
+					{
+						"content": "CONTENEDOR",
+						"polygon": [
+							1.6069,
+							3.4304,
+							2.1976,
+							3.4302,
+							2.1969,
+							3.5352,
+							1.6057,
+							3.5355
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 949,
+							"length": 10
+						}
+					},
+					{
+						"content": "DIRECTO",
+						"polygon": [
+							2.2251,
+							3.4301,
+							2.5943,
+							3.4304,
+							2.5938,
+							3.5356,
+							2.2244,
+							3.5352
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 960,
+							"length": 7
+						}
+					},
+					{
+						"content": "DIFERIDO",
+						"polygon": [
+							2.6235,
+							3.4304,
+							3.003,
+							3.4302,
+							3.0025,
+							3.5358,
+							2.623,
+							3.5356
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 968,
+							"length": 8
+						}
+					},
+					{
+						"content": "MSDU9032903",
+						"polygon": [
+							3.0253,
+							3.4303,
+							3.6191,
+							3.4311,
+							3.6191,
+							3.5352,
+							3.0248,
+							3.5358
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 977,
+							"length": 11
+						}
+					},
+					{
+						"content": "1",
+						"polygon": [
+							4.9606,
+							3.4474,
+							5.0081,
+							3.4493,
+							5.0081,
+							3.5245,
+							4.9604,
+							3.5221
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 989,
+							"length": 1
+						}
+					},
+					{
+						"content": "C40",
+						"polygon": [
+							5.5338,
+							3.4438,
+							5.6999,
+							3.4438,
+							5.6999,
+							3.5294,
+							5.5341,
+							3.5284
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 991,
+							"length": 3
+						}
+					},
+					{
+						"content": "13,00",
+						"polygon": [
+							6.3724,
+							3.4431,
+							6.5937,
+							3.4421,
+							6.5938,
+							3.5329,
+							6.3729,
+							3.5336
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 995,
+							"length": 5
+						}
+					},
+					{
+						"content": "12.356",
+						"polygon": [
+							7.2248,
+							3.4407,
+							7.491,
+							3.4398,
+							7.4909,
+							3.5294,
+							7.2253,
+							3.5308
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1001,
+							"length": 6
+						}
+					},
+					{
+						"content": "13,00",
+						"polygon": [
+							8.0771,
+							3.4407,
+							8.2952,
+							3.4407,
+							8.2952,
+							3.5314,
+							8.0774,
+							3.5325
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1008,
+							"length": 5
+						}
+					},
+					{
+						"content": "SEGURIDAD",
+						"polygon": [
+							0.2734,
+							3.5537,
+							0.7698,
+							3.5519,
+							0.7695,
+							3.6577,
+							0.2732,
+							3.657
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1014,
+							"length": 9
+						}
+					},
+					{
+						"content": "A",
+						"polygon": [
+							0.7941,
+							3.5517,
+							0.8409,
+							3.5515,
+							0.8406,
+							3.6575,
+							0.7938,
+							3.6576
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1024,
+							"length": 1
+						}
+					},
+					{
+						"content": "LA",
+						"polygon": [
+							0.8635,
+							3.5515,
+							0.9798,
+							3.5515,
+							0.9793,
+							3.6575,
+							0.8631,
+							3.6575
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1026,
+							"length": 2
+						}
+					},
+					{
+						"content": "CARGA",
+						"polygon": [
+							1.0006,
+							3.5514,
+							1.2852,
+							3.5514,
+							1.2847,
+							3.6582,
+							1.0001,
+							3.6576
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1029,
+							"length": 5
+						}
+					},
+					{
+						"content": "DE",
+						"polygon": [
+							1.3078,
+							3.5515,
+							1.4327,
+							3.5519,
+							1.4322,
+							3.6585,
+							1.3073,
+							3.6583
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1035,
+							"length": 2
+						}
+					},
+					{
+						"content": "CONTENEDORES",
+						"polygon": [
+							1.4588,
+							3.5519,
+							2.1477,
+							3.551,
+							2.1471,
+							3.6575,
+							1.4582,
+							3.6586
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1038,
+							"length": 12
+						}
+					},
+					{
+						"content": "MSDU9032903",
+						"polygon": [
+							2.1686,
+							3.5511,
+							2.7725,
+							3.5511,
+							2.7722,
+							3.6557,
+							2.168,
+							3.6576
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1051,
+							"length": 11
+						}
+					},
+					{
+						"content": "1",
+						"polygon": [
+							4.9637,
+							3.567,
+							5.0081,
+							3.5682,
+							5.0081,
+							3.6467,
+							4.9634,
+							3.6461
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1063,
+							"length": 1
+						}
+					},
+					{
+						"content": "C40",
+						"polygon": [
+							5.5338,
+							3.5632,
+							5.6999,
+							3.5628,
+							5.6999,
+							3.6511,
+							5.5337,
+							3.6506
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1065,
+							"length": 3
+						}
+					},
+					{
+						"content": "18,00",
+						"polygon": [
+							6.3738,
+							3.564,
+							6.5964,
+							3.5619,
+							6.5964,
+							3.6544,
+							6.374,
+							3.6564
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1069,
+							"length": 5
+						}
+					},
+					{
+						"content": "17.108",
+						"polygon": [
+							7.2251,
+							3.5623,
+							7.4928,
+							3.5597,
+							7.4928,
+							3.6501,
+							7.2255,
+							3.653
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1075,
+							"length": 6
+						}
+					},
+					{
+						"content": "18,00",
+						"polygon": [
+							8.0783,
+							3.5619,
+							8.2952,
+							3.5604,
+							8.2952,
+							3.6534,
+							8.0783,
+							3.6564
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1082,
+							"length": 5
+						}
+					},
+					{
+						"content": "TPS",
+						"polygon": [
+							2.312,
+							4.7094,
+							6.0983,
+							4.6337,
+							6.0983,
+							5.8792,
+							2.345,
+							5.8792
+						],
+						"confidence": 0.974,
+						"span": {
+							"offset": 1088,
+							"length": 3
+						}
+					},
+					{
+						"content": "VALPARAÍSO",
+						"polygon": [
+							2.9616,
+							5.9118,
+							5.4453,
+							5.886,
+							5.4453,
+							6.2038,
+							2.9603,
+							6.2015
+						],
+						"confidence": 0.665,
+						"span": {
+							"offset": 1092,
+							"length": 10
+						}
+					},
+					{
+						"content": "SON:",
+						"polygon": [
+							0.3069,
+							7.5164,
+							0.597,
+							7.5154,
+							0.5965,
+							7.6452,
+							0.3064,
+							7.6447
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 1103,
+							"length": 4
+						}
+					},
+					{
+						"content": "TREINTA",
+						"polygon": [
+							0.6336,
+							7.5154,
+							1.1344,
+							7.5142,
+							1.1333,
+							7.6452,
+							0.6331,
+							7.6452
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1108,
+							"length": 7
+						}
+					},
+					{
+						"content": "Y",
+						"polygon": [
+							1.1602,
+							7.5141,
+							1.2397,
+							7.5138,
+							1.2386,
+							7.6452,
+							1.1591,
+							7.6452
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1116,
+							"length": 1
+						}
+					},
+					{
+						"content": "SEIS",
+						"polygon": [
+							1.2741,
+							7.5139,
+							1.5277,
+							7.514,
+							1.5265,
+							7.6452,
+							1.2729,
+							7.6452
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 1118,
+							"length": 4
+						}
+					},
+					{
+						"content": "CON",
+						"polygon": [
+							1.5686,
+							7.5139,
+							1.8136,
+							7.513,
+							1.812,
+							7.6452,
+							1.5674,
+							7.6452
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1123,
+							"length": 3
+						}
+					},
+					{
+						"content": "89",
+						"polygon": [
+							1.8544,
+							7.5131,
+							1.9748,
+							7.5134,
+							1.9734,
+							7.6452,
+							1.8529,
+							7.6452
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1127,
+							"length": 2
+						}
+					},
+					{
+						"content": "/",
+						"polygon": [
+							2.007,
+							7.5135,
+							2.0436,
+							7.5135,
+							2.0422,
+							7.6452,
+							2.0057,
+							7.6452
+						],
+						"confidence": 0.981,
+						"span": {
+							"offset": 1130,
+							"length": 1
+						}
+					},
+					{
+						"content": "100",
+						"polygon": [
+							2.078,
+							7.5135,
+							2.2628,
+							7.5141,
+							2.2616,
+							7.6452,
+							2.0767,
+							7.6452
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1132,
+							"length": 3
+						}
+					},
+					{
+						"content": "DOLARES",
+						"polygon": [
+							2.3015,
+							7.5143,
+							2.8665,
+							7.5151,
+							2.8665,
+							7.6442,
+							2.3004,
+							7.6452
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1136,
+							"length": 7
+						}
+					},
+					{
+						"content": "Terminal",
+						"polygon": [
+							0.263,
+							7.7975,
+							0.6314,
+							7.7978,
+							0.6307,
+							7.9148,
+							0.262,
+							7.9131
+						],
+						"confidence": 0.985,
+						"span": {
+							"offset": 1144,
+							"length": 8
+						}
+					},
+					{
+						"content": "Pacífico",
+						"polygon": [
+							0.6782,
+							7.7975,
+							1.0076,
+							7.7961,
+							1.0062,
+							7.9159,
+							0.6774,
+							7.9149
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1153,
+							"length": 8
+						}
+					},
+					{
+						"content": "Sur",
+						"polygon": [
+							1.0466,
+							7.7962,
+							1.1928,
+							7.7962,
+							1.1911,
+							7.9164,
+							1.0451,
+							7.916
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1162,
+							"length": 3
+						}
+					},
+					{
+						"content": "Valparaíso",
+						"polygon": [
+							1.2279,
+							7.7962,
+							1.6762,
+							7.7955,
+							1.6748,
+							7.9165,
+							1.2262,
+							7.9164
+						],
+						"confidence": 0.983,
+						"span": {
+							"offset": 1166,
+							"length": 10
+						}
+					},
+					{
+						"content": "S.A",
+						"polygon": [
+							1.7152,
+							7.7953,
+							1.8673,
+							7.7953,
+							1.8658,
+							7.9165,
+							1.7138,
+							7.9165
+						],
+						"confidence": 0.987,
+						"span": {
+							"offset": 1177,
+							"length": 3
+						}
+					},
+					{
+						"content": "posee",
+						"polygon": [
+							1.9063,
+							7.7954,
+							2.1577,
+							7.796,
+							2.1563,
+							7.9161,
+							1.9047,
+							7.9165
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 1181,
+							"length": 5
+						}
+					},
+					{
+						"content": "un",
+						"polygon": [
+							2.2006,
+							7.7961,
+							2.2981,
+							7.7965,
+							2.2967,
+							7.9165,
+							2.1992,
+							7.9162
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 1187,
+							"length": 2
+						}
+					},
+					{
+						"content": "Modelo",
+						"polygon": [
+							2.3429,
+							7.7967,
+							2.647,
+							7.7966,
+							2.6458,
+							7.9165,
+							2.3416,
+							7.9165
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1190,
+							"length": 6
+						}
+					},
+					{
+						"content": "de",
+						"polygon": [
+							2.684,
+							7.7966,
+							2.7873,
+							7.7968,
+							2.7861,
+							7.9165,
+							2.6829,
+							7.9164
+						],
+						"confidence": 0.963,
+						"span": {
+							"offset": 1197,
+							"length": 2
+						}
+					},
+					{
+						"content": "Prevención",
+						"polygon": [
+							2.8302,
+							7.7968,
+							3.2941,
+							7.797,
+							3.2923,
+							7.9161,
+							2.8289,
+							7.9165
+						],
+						"confidence": 0.977,
+						"span": {
+							"offset": 1200,
+							"length": 10
+						}
+					},
+					{
+						"content": "de",
+						"polygon": [
+							3.3351,
+							7.7969,
+							3.4364,
+							7.7967,
+							3.4348,
+							7.9161,
+							3.3333,
+							7.9161
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1211,
+							"length": 2
+						}
+					},
+					{
+						"content": "Delitos.",
+						"polygon": [
+							3.4793,
+							7.7966,
+							3.7854,
+							7.797,
+							3.7839,
+							7.9164,
+							3.4777,
+							7.9161
+						],
+						"confidence": 0.983,
+						"span": {
+							"offset": 1214,
+							"length": 8
+						}
+					},
+					{
+						"content": "El",
+						"polygon": [
+							3.8321,
+							7.7971,
+							3.9082,
+							7.7974,
+							3.9067,
+							7.9165,
+							3.8307,
+							7.9165
+						],
+						"confidence": 0.939,
+						"span": {
+							"offset": 1223,
+							"length": 2
+						}
+					},
+					{
+						"content": "cliente",
+						"polygon": [
+							3.9491,
+							7.7978,
+							4.2161,
+							7.8004,
+							4.2151,
+							7.9165,
+							3.9477,
+							7.9165
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 1226,
+							"length": 7
+						}
+					},
+					{
+						"content": "y",
+						"polygon": [
+							4.2551,
+							7.8007,
+							4.3058,
+							7.801,
+							4.3049,
+							7.9165,
+							4.2541,
+							7.9165
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 1234,
+							"length": 1
+						}
+					},
+					{
+						"content": "sus",
+						"polygon": [
+							4.3409,
+							7.8013,
+							4.5046,
+							7.8024,
+							4.5038,
+							7.9165,
+							4.34,
+							7.9165
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1236,
+							"length": 3
+						}
+					},
+					{
+						"content": "representantes",
+						"polygon": [
+							0.2665,
+							7.9164,
+							0.8923,
+							7.915,
+							0.8918,
+							8.0272,
+							0.266,
+							8.027
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1240,
+							"length": 14
+						}
+					},
+					{
+						"content": "no",
+						"polygon": [
+							0.9146,
+							7.9149,
+							1.0375,
+							7.9143,
+							1.0368,
+							8.0272,
+							0.9141,
+							8.0272
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1255,
+							"length": 2
+						}
+					},
+					{
+						"content": "cometerán",
+						"polygon": [
+							1.0748,
+							7.9142,
+							1.5143,
+							7.9133,
+							1.5135,
+							8.0272,
+							1.074,
+							8.0272
+						],
+						"confidence": 0.973,
+						"span": {
+							"offset": 1258,
+							"length": 9
+						}
+					},
+					{
+						"content": "delitos",
+						"polygon": [
+							1.5534,
+							7.9132,
+							1.8253,
+							7.9128,
+							1.8241,
+							8.0272,
+							1.5525,
+							8.0272
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1268,
+							"length": 7
+						}
+					},
+					{
+						"content": "de",
+						"polygon": [
+							1.8626,
+							7.9128,
+							1.965,
+							7.9128,
+							1.9639,
+							8.0272,
+							1.8614,
+							8.0272
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1276,
+							"length": 2
+						}
+					},
+					{
+						"content": "corrupción",
+						"polygon": [
+							2.0041,
+							7.9128,
+							2.4399,
+							7.9118,
+							2.4389,
+							8.0272,
+							2.003,
+							8.0272
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 1279,
+							"length": 10
+						}
+					},
+					{
+						"content": "establecidos",
+						"polygon": [
+							2.4772,
+							7.9118,
+							2.9986,
+							7.9115,
+							2.9977,
+							8.0267,
+							2.4761,
+							8.0272
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1290,
+							"length": 12
+						}
+					},
+					{
+						"content": "en",
+						"polygon": [
+							3.0359,
+							7.9114,
+							3.1327,
+							7.9112,
+							3.1317,
+							8.0267,
+							3.0349,
+							8.0267
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1303,
+							"length": 2
+						}
+					},
+					{
+						"content": "la",
+						"polygon": [
+							3.1569,
+							7.9112,
+							3.2482,
+							7.911,
+							3.247,
+							8.0268,
+							3.1558,
+							8.0268
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1306,
+							"length": 2
+						}
+					},
+					{
+						"content": "Ley",
+						"polygon": [
+							3.2892,
+							7.9109,
+							3.44,
+							7.9111,
+							3.4389,
+							8.0268,
+							3.2879,
+							8.0268
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1309,
+							"length": 3
+						}
+					},
+					{
+						"content": "20.393",
+						"polygon": [
+							3.4754,
+							7.9112,
+							3.7622,
+							7.912,
+							3.7613,
+							8.0261,
+							3.4743,
+							8.0268
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1313,
+							"length": 6
+						}
+					},
+					{
+						"content": "ni",
+						"polygon": [
+							3.7994,
+							7.9122,
+							3.8683,
+							7.9125,
+							3.8675,
+							8.0257,
+							3.7986,
+							8.026
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1320,
+							"length": 2
+						}
+					},
+					{
+						"content": "cualquier",
+						"polygon": [
+							3.9075,
+							7.9126,
+							4.293,
+							7.9132,
+							4.2928,
+							8.0246,
+							3.9066,
+							8.0255
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1323,
+							"length": 9
+						}
+					},
+					{
+						"content": "otro",
+						"polygon": [
+							4.3246,
+							7.9133,
+							4.4978,
+							7.9136,
+							4.4977,
+							8.0246,
+							4.3245,
+							8.0246
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1333,
+							"length": 4
+						}
+					},
+					{
+						"content": "que",
+						"polygon": [
+							0.2654,
+							8.0302,
+							0.4252,
+							8.0295,
+							0.4254,
+							8.1402,
+							0.2657,
+							8.1389
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1338,
+							"length": 3
+						}
+					},
+					{
+						"content": "se",
+						"polygon": [
+							0.4565,
+							8.0294,
+							0.5447,
+							8.029,
+							0.5448,
+							8.1411,
+							0.4566,
+							8.1404
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1342,
+							"length": 2
+						}
+					},
+					{
+						"content": "incorpore",
+						"polygon": [
+							0.5667,
+							8.0289,
+							0.9728,
+							8.0268,
+							0.9725,
+							8.1398,
+							0.5668,
+							8.1412
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1345,
+							"length": 9
+						}
+					},
+					{
+						"content": "a",
+						"polygon": [
+							1.0022,
+							8.0266,
+							1.0518,
+							8.0264,
+							1.0514,
+							8.1397,
+							1.0019,
+							8.1398
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1355,
+							"length": 1
+						}
+					},
+					{
+						"content": "futuro",
+						"polygon": [
+							1.0812,
+							8.0262,
+							1.3237,
+							8.0248,
+							1.3231,
+							8.1389,
+							1.0807,
+							8.1396
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1357,
+							"length": 6
+						}
+					},
+					{
+						"content": "en",
+						"polygon": [
+							1.3513,
+							8.0246,
+							1.4413,
+							8.024,
+							1.4407,
+							8.1385,
+							1.3507,
+							8.1388
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1364,
+							"length": 2
+						}
+					},
+					{
+						"content": "la",
+						"polygon": [
+							1.4634,
+							8.0239,
+							1.5552,
+							8.024,
+							1.5545,
+							8.1385,
+							1.4627,
+							8.1384
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 1367,
+							"length": 2
+						}
+					},
+					{
+						"content": "Ley",
+						"polygon": [
+							1.5865,
+							8.024,
+							1.728,
+							8.0243,
+							1.7272,
+							8.1389,
+							1.5858,
+							8.1386
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1370,
+							"length": 3
+						}
+					},
+					{
+						"content": "indicada.",
+						"polygon": [
+							1.75,
+							8.0243,
+							2.1359,
+							8.0242,
+							2.1349,
+							8.1384,
+							1.7492,
+							8.1389
+						],
+						"confidence": 0.986,
+						"span": {
+							"offset": 1374,
+							"length": 9
+						}
+					},
+					{
+						"content": "El",
+						"polygon": [
+							2.1726,
+							8.0241,
+							2.2516,
+							8.0239,
+							2.2505,
+							8.1384,
+							2.1716,
+							8.1384
+						],
+						"confidence": 0.902,
+						"span": {
+							"offset": 1384,
+							"length": 2
+						}
+					},
+					{
+						"content": "cliente",
+						"polygon": [
+							2.281,
+							8.0239,
+							2.5511,
+							8.0241,
+							2.5498,
+							8.1382,
+							2.2799,
+							8.1384
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1387,
+							"length": 7
+						}
+					},
+					{
+						"content": "denunciará",
+						"polygon": [
+							2.5824,
+							8.0241,
+							3.0435,
+							8.0256,
+							3.0423,
+							8.1378,
+							2.581,
+							8.1381
+						],
+						"confidence": 0.821,
+						"span": {
+							"offset": 1395,
+							"length": 10
+						}
+					},
+					{
+						"content": "en",
+						"polygon": [
+							3.0748,
+							8.0256,
+							3.1758,
+							8.0256,
+							3.1746,
+							8.1372,
+							3.0736,
+							8.1376
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1406,
+							"length": 2
+						}
+					},
+					{
+						"content": "caso",
+						"polygon": [
+							3.2071,
+							8.0256,
+							3.4037,
+							8.0257,
+							3.4026,
+							8.1367,
+							3.2059,
+							8.1371
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1409,
+							"length": 4
+						}
+					},
+					{
+						"content": "que",
+						"polygon": [
+							3.4331,
+							8.0258,
+							3.5874,
+							8.0259,
+							3.5865,
+							8.1367,
+							3.432,
+							8.1367
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1414,
+							"length": 3
+						}
+					},
+					{
+						"content": "se",
+						"polygon": [
+							3.6187,
+							8.0259,
+							3.7142,
+							8.0261,
+							3.7133,
+							8.1366,
+							3.6178,
+							8.1367
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1418,
+							"length": 2
+						}
+					},
+					{
+						"content": "observe",
+						"polygon": [
+							3.7436,
+							8.0261,
+							4.0762,
+							8.0268,
+							4.0753,
+							8.136,
+							3.7427,
+							8.1366
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1421,
+							"length": 7
+						}
+					},
+					{
+						"content": "cualquier",
+						"polygon": [
+							4.1074,
+							8.0268,
+							4.5046,
+							8.0263,
+							4.5046,
+							8.1365,
+							4.1065,
+							8.1359
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1429,
+							"length": 9
+						}
+					},
+					{
+						"content": "delito",
+						"polygon": [
+							0.2655,
+							8.1333,
+							0.4969,
+							8.1333,
+							0.4963,
+							8.2408,
+							0.2648,
+							8.2383
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1439,
+							"length": 6
+						}
+					},
+					{
+						"content": "de",
+						"polygon": [
+							0.5666,
+							8.1333,
+							0.6713,
+							8.1327,
+							0.6708,
+							8.2417,
+							0.566,
+							8.2415
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1446,
+							"length": 2
+						}
+					},
+					{
+						"content": "corrupción",
+						"polygon": [
+							0.743,
+							8.1324,
+							1.1782,
+							8.1299,
+							1.1774,
+							8.2428,
+							0.7424,
+							8.2418
+						],
+						"confidence": 0.792,
+						"span": {
+							"offset": 1449,
+							"length": 10
+						}
+					},
+					{
+						"content": "contenido",
+						"polygon": [
+							1.2535,
+							8.1299,
+							1.6594,
+							8.1305,
+							1.6583,
+							8.2448,
+							1.2527,
+							8.2431
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1460,
+							"length": 9
+						}
+					},
+					{
+						"content": "en",
+						"polygon": [
+							1.7328,
+							8.1307,
+							1.832,
+							8.1306,
+							1.8308,
+							8.2453,
+							1.7317,
+							8.245
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1470,
+							"length": 2
+						}
+					},
+					{
+						"content": "dicha",
+						"polygon": [
+							1.9073,
+							8.1303,
+							2.1314,
+							8.1296,
+							2.1302,
+							8.2456,
+							1.9061,
+							8.2453
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1473,
+							"length": 5
+						}
+					},
+					{
+						"content": "Ley",
+						"polygon": [
+							2.2067,
+							8.1296,
+							2.3573,
+							8.1296,
+							2.3562,
+							8.2458,
+							2.2055,
+							8.2456
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1479,
+							"length": 3
+						}
+					},
+					{
+						"content": "a",
+						"polygon": [
+							2.4271,
+							8.1296,
+							2.4803,
+							8.1296,
+							2.4792,
+							8.2453,
+							2.426,
+							8.2455
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1483,
+							"length": 1
+						}
+					},
+					{
+						"content": "través",
+						"polygon": [
+							2.5519,
+							8.1295,
+							2.8072,
+							8.1293,
+							2.8062,
+							8.2437,
+							2.5509,
+							8.2449
+						],
+						"confidence": 0.92,
+						"span": {
+							"offset": 1485,
+							"length": 6
+						}
+					},
+					{
+						"content": "del",
+						"polygon": [
+							2.8807,
+							8.1292,
+							3.0037,
+							8.1291,
+							3.0027,
+							8.2431,
+							2.8796,
+							8.2435
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1492,
+							"length": 3
+						}
+					},
+					{
+						"content": "siguiente",
+						"polygon": [
+							3.079,
+							8.129,
+							3.4518,
+							8.1288,
+							3.4506,
+							8.2428,
+							3.0779,
+							8.2432
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1496,
+							"length": 9
+						}
+					},
+					{
+						"content": "Canal",
+						"polygon": [
+							3.5271,
+							8.1287,
+							3.7677,
+							8.1292,
+							3.7666,
+							8.2413,
+							3.5259,
+							8.2424
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1506,
+							"length": 5
+						}
+					},
+					{
+						"content": "de",
+						"polygon": [
+							3.8412,
+							8.1294,
+							3.9459,
+							8.1296,
+							3.9449,
+							8.2402,
+							3.84,
+							8.241
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1512,
+							"length": 2
+						}
+					},
+					{
+						"content": "Denuncias:",
+						"polygon": [
+							4.0212,
+							8.1297,
+							4.5042,
+							8.1295,
+							4.5042,
+							8.2381,
+							4.0204,
+							8.2394
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 1515,
+							"length": 10
+						}
+					},
+					{
+						"content": "https://www.eticatps.cl.",
+						"polygon": [
+							0.2623,
+							8.2353,
+							1.234,
+							8.2382,
+							1.234,
+							8.3501,
+							0.2627,
+							8.3516
+						],
+						"confidence": 0.96,
+						"span": {
+							"offset": 1526,
+							"length": 24
+						}
+					},
+					{
+						"content": "Equivalencia",
+						"polygon": [
+							4.6632,
+							7.8368,
+							5.2231,
+							7.8369,
+							5.2228,
+							7.9538,
+							4.6633,
+							7.9552
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1551,
+							"length": 12
+						}
+					},
+					{
+						"content": "en",
+						"polygon": [
+							5.2536,
+							7.8371,
+							5.3568,
+							7.8375,
+							5.3564,
+							7.9539,
+							5.2533,
+							7.9538
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1564,
+							"length": 2
+						}
+					},
+					{
+						"content": "otra",
+						"polygon": [
+							5.3874,
+							7.8375,
+							5.5536,
+							7.8372,
+							5.553,
+							7.9533,
+							5.3869,
+							7.9538
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 1567,
+							"length": 4
+						}
+					},
+					{
+						"content": "moneda:",
+						"polygon": [
+							5.5861,
+							7.8372,
+							5.971,
+							7.8359,
+							5.971,
+							7.9506,
+							5.5856,
+							7.9532
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1572,
+							"length": 7
+						}
+					},
+					{
+						"content": "NETO",
+						"polygon": [
+							4.6603,
+							8.0727,
+							5.0247,
+							8.0735,
+							5.0247,
+							8.1977,
+							4.6606,
+							8.1984
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1580,
+							"length": 4
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							5.418,
+							8.0464,
+							5.5062,
+							8.0461,
+							5.5062,
+							8.1788,
+							5.4178,
+							8.1756
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 1585,
+							"length": 1
+						}
+					},
+					{
+						"content": "29.464",
+						"polygon": [
+							6.1939,
+							8.0861,
+							6.5576,
+							8.0861,
+							6.5576,
+							8.1991,
+							6.1937,
+							8.2006
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1587,
+							"length": 6
+						}
+					},
+					{
+						"content": "USD",
+						"polygon": [
+							6.654,
+							8.0746,
+							6.9339,
+							8.0744,
+							6.9339,
+							8.1959,
+							6.654,
+							8.1973
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1594,
+							"length": 3
+						}
+					},
+					{
+						"content": "31,00",
+						"polygon": [
+							7.9887,
+							8.0674,
+							8.2842,
+							8.0665,
+							8.2839,
+							8.1843,
+							7.9885,
+							8.1861
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1598,
+							"length": 5
+						}
+					},
+					{
+						"content": "I.V.A.",
+						"polygon": [
+							4.6574,
+							8.2728,
+							4.9648,
+							8.2727,
+							4.965,
+							8.4194,
+							4.6578,
+							8.4181
+						],
+						"confidence": 0.972,
+						"span": {
+							"offset": 1604,
+							"length": 6
+						}
+					},
+					{
+						"content": "(19%)",
+						"polygon": [
+							5.0105,
+							8.2736,
+							5.3955,
+							8.2729,
+							5.3955,
+							8.4199,
+							5.0106,
+							8.4192
+						],
+						"confidence": 0.984,
+						"span": {
+							"offset": 1611,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							5.4132,
+							8.254,
+							5.5062,
+							8.2535,
+							5.5062,
+							8.3853,
+							5.4137,
+							8.3824
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1617,
+							"length": 1
+						}
+					},
+					{
+						"content": "5.598",
+						"polygon": [
+							6.2458,
+							8.287,
+							6.5465,
+							8.2869,
+							6.5465,
+							8.3957,
+							6.2459,
+							8.3973
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1619,
+							"length": 5
+						}
+					},
+					{
+						"content": "USD",
+						"polygon": [
+							6.655,
+							8.2777,
+							6.9339,
+							8.2801,
+							6.9339,
+							8.4017,
+							6.6551,
+							8.4026
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1625,
+							"length": 3
+						}
+					},
+					{
+						"content": "5,89",
+						"polygon": [
+							8.041,
+							8.2869,
+							8.2676,
+							8.2849,
+							8.2676,
+							8.4003,
+							8.0411,
+							8.4036
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1629,
+							"length": 4
+						}
+					},
+					{
+						"content": "TOTAL",
+						"polygon": [
+							4.6592,
+							8.4814,
+							5.0901,
+							8.4826,
+							5.0903,
+							8.6085,
+							4.6595,
+							8.6075
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1634,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							5.42,
+							8.4555,
+							5.5062,
+							8.4546,
+							5.5062,
+							8.5863,
+							5.4196,
+							8.5838
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 1640,
+							"length": 1
+						}
+					},
+					{
+						"content": "35.062",
+						"polygon": [
+							6.1839,
+							8.5073,
+							6.5465,
+							8.5079,
+							6.5465,
+							8.619,
+							6.1838,
+							8.6195
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1642,
+							"length": 6
+						}
+					},
+					{
+						"content": "USD",
+						"polygon": [
+							6.6543,
+							8.4928,
+							6.9335,
+							8.4918,
+							6.9332,
+							8.6104,
+							6.6545,
+							8.6124
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1649,
+							"length": 3
+						}
+					},
+					{
+						"content": "T/C:",
+						"polygon": [
+							6.6565,
+							8.6914,
+							6.878,
+							8.6929,
+							6.8764,
+							8.8163,
+							6.6562,
+							8.8152
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 1653,
+							"length": 4
+						}
+					},
+					{
+						"content": "950,43",
+						"polygon": [
+							6.9545,
+							8.6953,
+							7.3047,
+							8.6979,
+							7.3047,
+							8.8202,
+							6.9531,
+							8.8171
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1658,
+							"length": 6
+						}
+					},
+					{
+						"content": "36,89",
+						"polygon": [
+							7.9779,
+							8.5022,
+							8.2676,
+							8.5016,
+							8.2676,
+							8.618,
+							7.9779,
+							8.6195
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1665,
+							"length": 5
+						}
+					},
+					{
+						"content": "Timbre",
+						"polygon": [
+							1.7378,
+							9.8812,
+							2.0903,
+							9.8815,
+							2.0896,
+							10.001,
+							1.7378,
+							10.0006
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1671,
+							"length": 6
+						}
+					},
+					{
+						"content": "Electrónico",
+						"polygon": [
+							2.1277,
+							9.8814,
+							2.6692,
+							9.8816,
+							2.6687,
+							10.0018,
+							2.1272,
+							10.0011
+						],
+						"confidence": 0.601,
+						"span": {
+							"offset": 1678,
+							"length": 11
+						}
+					},
+					{
+						"content": "SII",
+						"polygon": [
+							2.7027,
+							9.8815,
+							2.8499,
+							9.881,
+							2.8499,
+							10.001,
+							2.7021,
+							10.0017
+						],
+						"confidence": 0.807,
+						"span": {
+							"offset": 1690,
+							"length": 3
+						}
+					},
+					{
+						"content": "Res.",
+						"polygon": [
+							0.9128,
+							10.0418,
+							1.1408,
+							10.0435,
+							1.1402,
+							10.153,
+							0.9126,
+							10.15
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1694,
+							"length": 4
+						}
+					},
+					{
+						"content": "80",
+						"polygon": [
+							1.1893,
+							10.0437,
+							1.3226,
+							10.043,
+							1.3226,
+							10.1527,
+							1.1887,
+							10.153
+						],
+						"confidence": 0.999,
+						"span": {
+							"offset": 1699,
+							"length": 2
+						}
+					},
+					{
+						"content": "de",
+						"polygon": [
+							1.4641,
+							10.0393,
+							1.5928,
+							10.0394,
+							1.5926,
+							10.1637,
+							1.464,
+							10.1613
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 1702,
+							"length": 2
+						}
+					},
+					{
+						"content": "2014",
+						"polygon": [
+							1.6592,
+							10.0389,
+							1.9081,
+							10.0375,
+							1.908,
+							10.165,
+							1.6591,
+							10.164
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1705,
+							"length": 4
+						}
+					},
+					{
+						"content": "Verifique",
+						"polygon": [
+							1.9662,
+							10.0376,
+							2.4061,
+							10.0375,
+							2.4059,
+							10.1656,
+							1.9661,
+							10.165
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1710,
+							"length": 9
+						}
+					},
+					{
+						"content": "documento:",
+						"polygon": [
+							2.4393,
+							10.0375,
+							3.014,
+							10.0389,
+							3.0136,
+							10.1662,
+							2.4391,
+							10.1654
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1720,
+							"length": 10
+						}
+					},
+					{
+						"content": "www.sii.cl",
+						"polygon": [
+							3.0472,
+							10.039,
+							3.5527,
+							10.0364,
+							3.5527,
+							10.1619,
+							3.0468,
+							10.1661
+						],
+						"confidence": 0.973,
+						"span": {
+							"offset": 1731,
+							"length": 10
+						}
+					},
+					{
+						"content": "2710CLP74150000076691181100000000526876",
+						"polygon": [
+							0.9942,
+							10.6813,
+							3.5355,
+							10.6783,
+							3.5358,
+							10.8039,
+							0.9934,
+							10.805
+						],
+						"confidence": 0.963,
+						"span": {
+							"offset": 1742,
+							"length": 39
+						}
+					},
+					{
+						"content": "ORIGINAL",
+						"polygon": [
+							7.6207,
+							10.6828,
+							8.3174,
+							10.6838,
+							8.3174,
+							10.8267,
+							7.6208,
+							10.8262
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1782,
+							"length": 8
+						}
+					}
+				],
+				"lines": [
+					{
+						"content": "TPS",
+						"polygon": [
+							0.2558,
+							0.2009,
+							2.1901,
+							0.1965,
+							2.1915,
+							0.8115,
+							0.2573,
+							0.8159
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "- VALPARAISO -",
+						"polygon": [
+							0.2703,
+							0.843,
+							2.1892,
+							0.8367,
+							2.1897,
+							0.9985,
+							0.2708,
+							1.0048
+						],
+						"spans": [
+							{
+								"offset": 4,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "Terminal Pacifico Sur Valparaíso S.A.",
+						"polygon": [
+							0.2303,
+							1.0363,
+							2.2154,
+							1.0353,
+							2.2154,
+							1.1594,
+							0.2304,
+							1.1605
+						],
+						"spans": [
+							{
+								"offset": 19,
+								"length": 37
+							}
+						]
+					},
+					{
+						"content": "CASA MATRIZ:",
+						"polygon": [
+							0.2337,
+							1.1644,
+							1.0465,
+							1.1658,
+							1.0463,
+							1.281,
+							0.2335,
+							1.2796
+						],
+						"spans": [
+							{
+								"offset": 57,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "Antonio Varas #2, piso 3, Valparaíso",
+						"polygon": [
+							0.2296,
+							1.3166,
+							1.8226,
+							1.3174,
+							1.8225,
+							1.4329,
+							0.2296,
+							1.432
+						],
+						"spans": [
+							{
+								"offset": 70,
+								"length": 36
+							}
+						]
+					},
+					{
+						"content": "Fono: +56(32) 2275800",
+						"polygon": [
+							0.2312,
+							1.4322,
+							1.2676,
+							1.4318,
+							1.2677,
+							1.5499,
+							0.2312,
+							1.5502
+						],
+						"spans": [
+							{
+								"offset": 107,
+								"length": 21
+							}
+						]
+					},
+					{
+						"content": "GIRO: DESARROLLO, MANTENCIÓN Y EXPLOTACIÓN",
+						"polygon": [
+							2.2438,
+							0.1834,
+							4.7796,
+							0.1795,
+							4.7797,
+							0.2933,
+							2.244,
+							0.2972
+						],
+						"spans": [
+							{
+								"offset": 129,
+								"length": 42
+							}
+						]
+					},
+					{
+						"content": "DEL FRENTE ATRAQUE Nº 1 DE LA EMPRESA",
+						"polygon": [
+							2.2445,
+							0.2983,
+							4.42,
+							0.2962,
+							4.4201,
+							0.4038,
+							2.2446,
+							0.4059
+						],
+						"spans": [
+							{
+								"offset": 172,
+								"length": 37
+							}
+						]
+					},
+					{
+						"content": "PORTUARIA VALPARAÍSO, DESARROLLAR GIRO DE",
+						"polygon": [
+							2.2447,
+							0.4098,
+							4.7379,
+							0.4102,
+							4.7378,
+							0.5217,
+							2.2447,
+							0.5213
+						],
+						"spans": [
+							{
+								"offset": 210,
+								"length": 41
+							}
+						]
+					},
+					{
+						"content": "EMPRESA MUELLAJE Y ALMACENAMIENTO",
+						"polygon": [
+							2.2428,
+							0.5251,
+							4.3438,
+							0.5218,
+							4.344,
+							0.6312,
+							2.2429,
+							0.6344
+						],
+						"spans": [
+							{
+								"offset": 252,
+								"length": 33
+							}
+						]
+					},
+					{
+						"content": "R.U.T. 96.908.870- 3",
+						"polygon": [
+							6.0727,
+							0.2669,
+							7.6483,
+							0.2667,
+							7.6483,
+							0.4307,
+							6.0727,
+							0.4309
+						],
+						"spans": [
+							{
+								"offset": 286,
+								"length": 20
+							}
+						]
+					},
+					{
+						"content": "FACTURA ELECTRÓNICA",
+						"polygon": [
+							5.8199,
+							0.4854,
+							7.8983,
+							0.4849,
+							7.8983,
+							0.6679,
+							5.82,
+							0.6684
+						],
+						"spans": [
+							{
+								"offset": 307,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "N° 00526876",
+						"polygon": [
+							6.3634,
+							0.7288,
+							7.357,
+							0.7281,
+							7.3571,
+							0.8879,
+							6.3635,
+							0.8886
+						],
+						"spans": [
+							{
+								"offset": 327,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "S.I.I. - VALPARAÍSO",
+						"polygon": [
+							6.0378,
+							0.9966,
+							7.6729,
+							0.9927,
+							7.6733,
+							1.1726,
+							6.0382,
+							1.1765
+						],
+						"spans": [
+							{
+								"offset": 339,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "SUCURSAL:",
+						"polygon": [
+							3.0027,
+							1.158,
+							3.6683,
+							1.159,
+							3.6681,
+							1.2734,
+							3.0026,
+							1.2724
+						],
+						"spans": [
+							{
+								"offset": 359,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "Fundo Quebrada Verde S/N, Dpto 12. Camino La Pólvora, Valparaíso",
+						"polygon": [
+							3.001,
+							1.3065,
+							6.0205,
+							1.3078,
+							6.0205,
+							1.4292,
+							3.0009,
+							1.4279
+						],
+						"spans": [
+							{
+								"offset": 369,
+								"length": 64
+							}
+						]
+					},
+					{
+						"content": "Fono: +56(32) 2531366",
+						"polygon": [
+							3.0027,
+							1.4283,
+							4.0385,
+							1.4297,
+							4.0382,
+							1.5429,
+							3.0025,
+							1.5406
+						],
+						"spans": [
+							{
+								"offset": 434,
+								"length": 21
+							}
+						]
+					},
+					{
+						"content": "Valparaíso, 11 de julio de 2025",
+						"polygon": [
+							6.713,
+							1.5708,
+							8.2984,
+							1.566,
+							8.2988,
+							1.6968,
+							6.7134,
+							1.6995
+						],
+						"spans": [
+							{
+								"offset": 456,
+								"length": 31
+							}
+						]
+					},
+					{
+						"content": "Señor(es):",
+						"polygon": [
+							0.3283,
+							1.7764,
+							0.8899,
+							1.7801,
+							0.8891,
+							1.9073,
+							0.3275,
+							1.9036
+						],
+						"spans": [
+							{
+								"offset": 488,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "COMERCIALIZADORA DE CONFITES CHOCOL FACT",
+						"polygon": [
+							1.0049,
+							1.7746,
+							3.7801,
+							1.77,
+							3.7803,
+							1.8961,
+							1.0051,
+							1.8988
+						],
+						"spans": [
+							{
+								"offset": 499,
+								"length": 40
+							}
+						]
+					},
+					{
+						"content": "Dirección:",
+						"polygon": [
+							0.3328,
+							1.94,
+							0.889,
+							1.9425,
+							0.8885,
+							2.058,
+							0.3323,
+							2.0556
+						],
+						"spans": [
+							{
+								"offset": 540,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "GAVARINO 8481",
+						"polygon": [
+							1.0064,
+							1.9354,
+							1.8758,
+							1.9369,
+							1.8755,
+							2.0539,
+							1.0062,
+							2.0527
+						],
+						"spans": [
+							{
+								"offset": 551,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "Comuna:",
+						"polygon": [
+							0.333,
+							2.1,
+							0.8276,
+							2.1031,
+							0.8269,
+							2.2115,
+							0.3323,
+							2.2084
+						],
+						"spans": [
+							{
+								"offset": 565,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "SAN ANTONIO",
+						"polygon": [
+							1.0064,
+							2.0925,
+							1.7875,
+							2.0931,
+							1.7875,
+							2.2093,
+							1.0063,
+							2.2087
+						],
+						"spans": [
+							{
+								"offset": 573,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "Giro:",
+						"polygon": [
+							0.3353,
+							2.2605,
+							0.6052,
+							2.2617,
+							0.6047,
+							2.3668,
+							0.3348,
+							2.3655
+						],
+						"spans": [
+							{
+								"offset": 585,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "VENTA AL POR MENOR EN COMERCIOS ESPECIAL",
+						"polygon": [
+							1.0057,
+							2.2498,
+							3.7465,
+							2.2469,
+							3.7466,
+							2.3709,
+							1.0059,
+							2.3737
+						],
+						"spans": [
+							{
+								"offset": 591,
+								"length": 40
+							}
+						]
+					},
+					{
+						"content": "OFA:",
+						"polygon": [
+							0.3329,
+							2.4192,
+							0.6156,
+							2.4197,
+							0.6153,
+							2.5288,
+							0.3327,
+							2.5282
+						],
+						"spans": [
+							{
+								"offset": 632,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "1141124 / VAP /",
+						"polygon": [
+							1.0135,
+							2.4147,
+							1.8339,
+							2.4131,
+							1.8342,
+							2.5301,
+							1.0137,
+							2.5317
+						],
+						"spans": [
+							{
+								"offset": 637,
+								"length": 15
+							}
+						]
+					},
+					{
+						"content": "R.U.T .:",
+						"polygon": [
+							5.4007,
+							1.7794,
+							5.7714,
+							1.7802,
+							5.7712,
+							1.8922,
+							5.4004,
+							1.8914
+						],
+						"spans": [
+							{
+								"offset": 653,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "76.691.181-1",
+						"polygon": [
+							6.5297,
+							1.775,
+							7.1898,
+							1.776,
+							7.1896,
+							1.8933,
+							6.5295,
+							1.8922
+						],
+						"spans": [
+							{
+								"offset": 662,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "Fecha Vencimiento:",
+						"polygon": [
+							5.4017,
+							1.9386,
+							6.4628,
+							1.9401,
+							6.4626,
+							2.0577,
+							5.4016,
+							2.0563
+						],
+						"spans": [
+							{
+								"offset": 675,
+								"length": 18
+							}
+						]
+					},
+					{
+						"content": "15-07-2025",
+						"polygon": [
+							6.5362,
+							1.9417,
+							7.1144,
+							1.9392,
+							7.1149,
+							2.05,
+							6.5367,
+							2.0525
+						],
+						"spans": [
+							{
+								"offset": 694,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "Ciudad:",
+						"polygon": [
+							5.403,
+							2.0967,
+							5.8268,
+							2.0975,
+							5.8266,
+							2.2089,
+							5.4028,
+							2.2081
+						],
+						"spans": [
+							{
+								"offset": 705,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "SAN ANTONIO",
+						"polygon": [
+							6.531,
+							2.0922,
+							7.3096,
+							2.0919,
+							7.3096,
+							2.2095,
+							6.531,
+							2.2097
+						],
+						"spans": [
+							{
+								"offset": 713,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "OC Ref .:",
+						"polygon": [
+							5.4006,
+							2.2542,
+							5.8582,
+							2.2566,
+							5.8576,
+							2.3694,
+							5.4,
+							2.3673
+						],
+						"spans": [
+							{
+								"offset": 725,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "Nave:",
+						"polygon": [
+							5.4005,
+							2.4206,
+							5.7163,
+							2.4234,
+							5.7153,
+							2.5293,
+							5.3996,
+							2.5265
+						],
+						"spans": [
+							{
+								"offset": 735,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "MSC TAKORADI VIII (25-0284)",
+						"polygon": [
+							6.5264,
+							2.4082,
+							8.1033,
+							2.4098,
+							8.1029,
+							2.5451,
+							6.526,
+							2.5402
+						],
+						"spans": [
+							{
+								"offset": 741,
+								"length": 27
+							}
+						]
+					},
+					{
+						"content": "Solicitante: AGENCIA DE ADUANA JUAN LEON VALENZU COMP",
+						"polygon": [
+							0.3294,
+							2.7851,
+							3.761,
+							2.7812,
+							3.7612,
+							2.9085,
+							0.3296,
+							2.9119
+						],
+						"spans": [
+							{
+								"offset": 769,
+								"length": 53
+							}
+						]
+					},
+					{
+						"content": "R.U.T .:",
+						"polygon": [
+							5.389,
+							2.793,
+							5.76,
+							2.7934,
+							5.7599,
+							2.905,
+							5.3889,
+							2.9045
+						],
+						"spans": [
+							{
+								"offset": 823,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "85.141.900-4",
+						"polygon": [
+							6.5279,
+							2.7892,
+							7.1988,
+							2.7899,
+							7.1987,
+							2.9082,
+							6.5278,
+							2.9076
+						],
+						"spans": [
+							{
+								"offset": 832,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "Domicilo:",
+						"polygon": [
+							0.3343,
+							2.9545,
+							0.8532,
+							2.9561,
+							0.8529,
+							3.0707,
+							0.334,
+							3.0691
+						],
+						"spans": [
+							{
+								"offset": 845,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "PRAT 856",
+						"polygon": [
+							1.0023,
+							2.9529,
+							1.5308,
+							2.9524,
+							1.5309,
+							3.0654,
+							1.0024,
+							3.0658
+						],
+						"spans": [
+							{
+								"offset": 855,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "SSE:",
+						"polygon": [
+							5.3908,
+							2.9543,
+							5.6614,
+							2.9562,
+							5.6607,
+							3.0652,
+							5.39,
+							3.0633
+						],
+						"spans": [
+							{
+								"offset": 864,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "Detalle",
+						"polygon": [
+							2.2295,
+							3.2783,
+							2.6079,
+							3.2791,
+							2.6076,
+							3.3852,
+							2.2293,
+							3.3844
+						],
+						"spans": [
+							{
+								"offset": 869,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "Cantidad",
+						"polygon": [
+							4.7197,
+							3.2759,
+							5.2104,
+							3.2757,
+							5.2104,
+							3.3869,
+							4.7198,
+							3.3871
+						],
+						"spans": [
+							{
+								"offset": 877,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "Unidad",
+						"polygon": [
+							5.3725,
+							3.2757,
+							5.7671,
+							3.2754,
+							5.7672,
+							3.3861,
+							5.3726,
+							3.3864
+						],
+						"spans": [
+							{
+								"offset": 886,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Tarifa USD",
+						"polygon": [
+							5.9433,
+							3.2735,
+							6.5234,
+							3.2729,
+							6.5235,
+							3.387,
+							5.9434,
+							3.3876
+						],
+						"spans": [
+							{
+								"offset": 893,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "Monto CLP",
+						"polygon": [
+							6.7353,
+							3.2755,
+							7.3395,
+							3.2719,
+							7.3402,
+							3.3856,
+							6.736,
+							3.3893
+						],
+						"spans": [
+							{
+								"offset": 904,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "Monto USD",
+						"polygon": [
+							7.584,
+							3.2755,
+							8.1951,
+							3.2741,
+							8.1954,
+							3.387,
+							7.5842,
+							3.3885
+						],
+						"spans": [
+							{
+								"offset": 914,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "TRASLADO DOCUMENTAL PARA CONTENEDOR DIRECTO DIFERIDO MSDU9032903",
+						"polygon": [
+							0.2707,
+							3.4296,
+							3.6185,
+							3.4301,
+							3.6185,
+							3.5354,
+							0.2707,
+							3.5349
+						],
+						"spans": [
+							{
+								"offset": 924,
+								"length": 64
+							}
+						]
+					},
+					{
+						"content": "1",
+						"polygon": [
+							4.9606,
+							3.4474,
+							5.0058,
+							3.4476,
+							5.0055,
+							3.5232,
+							4.9604,
+							3.5231
+						],
+						"spans": [
+							{
+								"offset": 989,
+								"length": 1
+							}
+						]
+					},
+					{
+						"content": "C40",
+						"polygon": [
+							5.5338,
+							3.4429,
+							5.6979,
+							3.4433,
+							5.6977,
+							3.5286,
+							5.5336,
+							3.5282
+						],
+						"spans": [
+							{
+								"offset": 991,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "13,00",
+						"polygon": [
+							6.3724,
+							3.4429,
+							6.5918,
+							3.4421,
+							6.5921,
+							3.5327,
+							6.3727,
+							3.5334
+						],
+						"spans": [
+							{
+								"offset": 995,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "12.356",
+						"polygon": [
+							7.2248,
+							3.4407,
+							7.4892,
+							3.4398,
+							7.4895,
+							3.5297,
+							7.2251,
+							3.5306
+						],
+						"spans": [
+							{
+								"offset": 1001,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "13,00",
+						"polygon": [
+							8.0771,
+							3.4407,
+							8.2944,
+							3.4407,
+							8.2944,
+							3.5323,
+							8.0771,
+							3.5323
+						],
+						"spans": [
+							{
+								"offset": 1008,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "SEGURIDAD A LA CARGA DE CONTENEDORES MSDU9032903",
+						"polygon": [
+							0.2731,
+							3.5514,
+							2.7676,
+							3.55,
+							2.7676,
+							3.6562,
+							0.2732,
+							3.6576
+						],
+						"spans": [
+							{
+								"offset": 1014,
+								"length": 48
+							}
+						]
+					},
+					{
+						"content": "1",
+						"polygon": [
+							4.9637,
+							3.567,
+							5.0065,
+							3.5672,
+							5.0061,
+							3.6462,
+							4.9633,
+							3.646
+						],
+						"spans": [
+							{
+								"offset": 1063,
+								"length": 1
+							}
+						]
+					},
+					{
+						"content": "C40",
+						"polygon": [
+							5.5338,
+							3.562,
+							5.698,
+							3.5623,
+							5.6979,
+							3.6502,
+							5.5337,
+							3.6499
+						],
+						"spans": [
+							{
+								"offset": 1065,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "18,00",
+						"polygon": [
+							6.3731,
+							3.564,
+							6.5912,
+							3.562,
+							6.592,
+							3.654,
+							6.374,
+							3.6561
+						],
+						"spans": [
+							{
+								"offset": 1069,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "17.108",
+						"polygon": [
+							7.2245,
+							3.562,
+							7.4896,
+							3.5596,
+							7.4906,
+							3.6495,
+							7.2256,
+							3.6527
+						],
+						"spans": [
+							{
+								"offset": 1075,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "18,00",
+						"polygon": [
+							8.0777,
+							3.5619,
+							8.2942,
+							3.5605,
+							8.2948,
+							3.6543,
+							8.0783,
+							3.6557
+						],
+						"spans": [
+							{
+								"offset": 1082,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "TPS",
+						"polygon": [
+							2.312,
+							4.7094,
+							6.0798,
+							4.6282,
+							6.0983,
+							5.8738,
+							2.3388,
+							5.8792
+						],
+						"spans": [
+							{
+								"offset": 1088,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "VALPARAÍSO",
+						"polygon": [
+							2.9573,
+							5.91,
+							5.4377,
+							5.8848,
+							5.4409,
+							6.1993,
+							2.9606,
+							6.2058
+						],
+						"spans": [
+							{
+								"offset": 1092,
+								"length": 10
+							}
+						]
+					},
+					{
+						"content": "SON: TREINTA Y SEIS CON 89 / 100 DOLARES",
+						"polygon": [
+							0.3064,
+							7.5131,
+							2.865,
+							7.5126,
+							2.8651,
+							7.6443,
+							0.3064,
+							7.6448
+						],
+						"spans": [
+							{
+								"offset": 1103,
+								"length": 40
+							}
+						]
+					},
+					{
+						"content": "Terminal Pacífico Sur Valparaíso S.A posee un Modelo de Prevención de Delitos. El cliente y sus",
+						"polygon": [
+							0.2621,
+							7.7947,
+							4.5004,
+							7.797,
+							4.5003,
+							7.9165,
+							0.262,
+							7.9143
+						],
+						"spans": [
+							{
+								"offset": 1144,
+								"length": 95
+							}
+						]
+					},
+					{
+						"content": "representantes no cometerán delitos de corrupción establecidos en la Ley 20.393 ni cualquier otro",
+						"polygon": [
+							0.2659,
+							7.9129,
+							4.4956,
+							7.9101,
+							4.4957,
+							8.0243,
+							0.266,
+							8.0271
+						],
+						"spans": [
+							{
+								"offset": 1240,
+								"length": 97
+							}
+						]
+					},
+					{
+						"content": "que se incorpore a futuro en la Ley indicada. El cliente denunciará en caso que se observe cualquier",
+						"polygon": [
+							0.2654,
+							8.0253,
+							4.499,
+							8.0216,
+							4.4992,
+							8.1346,
+							0.2655,
+							8.1397
+						],
+						"spans": [
+							{
+								"offset": 1338,
+								"length": 100
+							}
+						]
+					},
+					{
+						"content": "delito de corrupción contenido en dicha Ley a través del siguiente Canal de Denuncias:",
+						"polygon": [
+							0.2648,
+							8.1303,
+							4.4991,
+							8.1282,
+							4.4992,
+							8.2428,
+							0.2649,
+							8.2449
+						],
+						"spans": [
+							{
+								"offset": 1439,
+								"length": 86
+							}
+						]
+					},
+					{
+						"content": "https://www.eticatps.cl.",
+						"polygon": [
+							0.2623,
+							8.2353,
+							1.234,
+							8.2375,
+							1.2338,
+							8.352,
+							0.262,
+							8.3497
+						],
+						"spans": [
+							{
+								"offset": 1526,
+								"length": 24
+							}
+						]
+					},
+					{
+						"content": "Equivalencia en otra moneda:",
+						"polygon": [
+							4.6629,
+							7.8363,
+							5.969,
+							7.8334,
+							5.9693,
+							7.9503,
+							4.6633,
+							7.9541
+						],
+						"spans": [
+							{
+								"offset": 1551,
+								"length": 28
+							}
+						]
+					},
+					{
+						"content": "NETO",
+						"polygon": [
+							4.6603,
+							8.0727,
+							5.0233,
+							8.0725,
+							5.0233,
+							8.1961,
+							4.6604,
+							8.1963
+						],
+						"spans": [
+							{
+								"offset": 1580,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "$",
+						"polygon": [
+							5.4179,
+							8.0462,
+							5.5046,
+							8.0463,
+							5.5045,
+							8.1772,
+							5.4178,
+							8.1772
+						],
+						"spans": [
+							{
+								"offset": 1585,
+								"length": 1
+							}
+						]
+					},
+					{
+						"content": "29.464",
+						"polygon": [
+							6.1939,
+							8.0856,
+							6.5548,
+							8.0861,
+							6.5546,
+							8.1996,
+							6.1937,
+							8.1991
+						],
+						"spans": [
+							{
+								"offset": 1587,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "USD",
+						"polygon": [
+							6.6537,
+							8.0744,
+							6.9334,
+							8.0739,
+							6.9336,
+							8.1949,
+							6.654,
+							8.1954
+						],
+						"spans": [
+							{
+								"offset": 1594,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "31,00",
+						"polygon": [
+							7.9883,
+							8.0668,
+							8.2796,
+							8.0663,
+							8.2798,
+							8.1841,
+							7.9885,
+							8.1847
+						],
+						"spans": [
+							{
+								"offset": 1598,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "I.V.A. (19%)",
+						"polygon": [
+							4.6574,
+							8.2726,
+							5.3934,
+							8.2708,
+							5.3938,
+							8.4184,
+							4.6578,
+							8.4202
+						],
+						"spans": [
+							{
+								"offset": 1604,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "$",
+						"polygon": [
+							5.4132,
+							8.2539,
+							5.5034,
+							8.2536,
+							5.5039,
+							8.3837,
+							5.4137,
+							8.3841
+						],
+						"spans": [
+							{
+								"offset": 1617,
+								"length": 1
+							}
+						]
+					},
+					{
+						"content": "5.598",
+						"polygon": [
+							6.2458,
+							8.2865,
+							6.541,
+							8.2868,
+							6.5409,
+							8.3966,
+							6.2457,
+							8.3962
+						],
+						"spans": [
+							{
+								"offset": 1619,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "USD",
+						"polygon": [
+							6.655,
+							8.2777,
+							6.9313,
+							8.2774,
+							6.9314,
+							8.4003,
+							6.6551,
+							8.4005
+						],
+						"spans": [
+							{
+								"offset": 1625,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "5,89",
+						"polygon": [
+							8.0407,
+							8.2869,
+							8.2648,
+							8.2848,
+							8.2659,
+							8.4,
+							8.0411,
+							8.4021
+						],
+						"spans": [
+							{
+								"offset": 1629,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "TOTAL",
+						"polygon": [
+							4.6592,
+							8.4811,
+							5.0863,
+							8.4826,
+							5.0857,
+							8.6081,
+							4.6586,
+							8.6061
+						],
+						"spans": [
+							{
+								"offset": 1634,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "$",
+						"polygon": [
+							5.4197,
+							8.4548,
+							5.5057,
+							8.4549,
+							5.5055,
+							8.5857,
+							5.4196,
+							8.5856
+						],
+						"spans": [
+							{
+								"offset": 1640,
+								"length": 1
+							}
+						]
+					},
+					{
+						"content": "35.062",
+						"polygon": [
+							6.1839,
+							8.5073,
+							6.5426,
+							8.5081,
+							6.5423,
+							8.6195,
+							6.1837,
+							8.6189
+						],
+						"spans": [
+							{
+								"offset": 1642,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "USD",
+						"polygon": [
+							6.654,
+							8.4928,
+							6.9306,
+							8.4918,
+							6.931,
+							8.6095,
+							6.6544,
+							8.6104
+						],
+						"spans": [
+							{
+								"offset": 1649,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "T/C: 950,43",
+						"polygon": [
+							6.6565,
+							8.6889,
+							7.3027,
+							8.6962,
+							7.3013,
+							8.8205,
+							6.6551,
+							8.8132
+						],
+						"spans": [
+							{
+								"offset": 1653,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "36,89",
+						"polygon": [
+							7.9778,
+							8.5019,
+							8.2644,
+							8.5015,
+							8.2646,
+							8.6183,
+							7.9779,
+							8.6187
+						],
+						"spans": [
+							{
+								"offset": 1665,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "Timbre Electrónico SII",
+						"polygon": [
+							1.7378,
+							9.8807,
+							2.849,
+							9.8806,
+							2.849,
+							9.9999,
+							1.7378,
+							9.9999
+						],
+						"spans": [
+							{
+								"offset": 1671,
+								"length": 22
+							}
+						]
+					},
+					{
+						"content": "Res. 80",
+						"polygon": [
+							0.9128,
+							10.0411,
+							1.3224,
+							10.043,
+							1.3219,
+							10.1527,
+							0.9123,
+							10.1508
+						],
+						"spans": [
+							{
+								"offset": 1694,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "de 2014 Verifique documento: www.sii.cl",
+						"polygon": [
+							1.4639,
+							10.0368,
+							3.5509,
+							10.0365,
+							3.551,
+							10.1643,
+							1.464,
+							10.1646
+						],
+						"spans": [
+							{
+								"offset": 1702,
+								"length": 39
+							}
+						]
+					},
+					{
+						"content": "2710CLP74150000076691181100000000526876",
+						"polygon": [
+							0.9933,
+							10.6789,
+							3.5308,
+							10.6767,
+							3.5309,
+							10.8032,
+							0.9934,
+							10.8054
+						],
+						"spans": [
+							{
+								"offset": 1742,
+								"length": 39
+							}
+						]
+					},
+					{
+						"content": "ORIGINAL",
+						"polygon": [
+							7.6207,
+							10.6828,
+							8.3173,
+							10.6839,
+							8.3171,
+							10.8251,
+							7.6205,
+							10.824
+						],
+						"spans": [
+							{
+								"offset": 1782,
+								"length": 8
+							}
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 1790
+					}
+				]
+			}
+		],
+		"tables": [
+			{
+				"rowCount": 5,
+				"columnCount": 2,
+				"cells": [
+					{
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"content": "Señor(es):",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2712,
+									1.7162,
+									0.9408,
+									1.7217,
+									0.9408,
+									1.9155,
+									0.2712,
+									1.9155
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 488,
+								"length": 10
+							}
+						],
+						"elements": [
+							"/paragraphs/9"
+						]
+					},
+					{
+						"rowIndex": 0,
+						"columnIndex": 1,
+						"content": "COMERCIALIZADORA DE CONFITES CHOCOL FACT",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.9408,
+									1.7217,
+									3.8405,
+									1.7217,
+									3.8405,
+									1.9155,
+									0.9408,
+									1.9155
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 499,
+								"length": 40
+							}
+						],
+						"elements": [
+							"/paragraphs/10"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "Dirección:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2712,
+									1.9155,
+									0.9408,
+									1.9155,
+									0.9408,
+									2.0705,
+									0.2712,
+									2.0705
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 540,
+								"length": 10
+							}
+						],
+						"elements": [
+							"/paragraphs/11"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "GAVARINO 8481",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.9408,
+									1.9155,
+									3.8405,
+									1.9155,
+									3.8405,
+									2.0705,
+									0.9408,
+									2.0705
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 551,
+								"length": 13
+							}
+						],
+						"elements": [
+							"/paragraphs/12"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"content": "Comuna:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2712,
+									2.0705,
+									0.9408,
+									2.0705,
+									0.9408,
+									2.231,
+									0.2712,
+									2.231
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 565,
+								"length": 7
+							}
+						],
+						"elements": [
+							"/paragraphs/13"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"content": "SAN ANTONIO",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.9408,
+									2.0705,
+									3.8405,
+									2.0705,
+									3.8405,
+									2.231,
+									0.9408,
+									2.231
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 573,
+								"length": 11
+							}
+						],
+						"elements": [
+							"/paragraphs/14"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 0,
+						"content": "Giro:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2712,
+									2.231,
+									0.9408,
+									2.231,
+									0.9408,
+									2.3915,
+									0.2712,
+									2.3915
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 585,
+								"length": 5
+							}
+						],
+						"elements": [
+							"/paragraphs/15"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"content": "VENTA AL POR MENOR EN COMERCIOS ESPECIAL",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.9408,
+									2.231,
+									3.8405,
+									2.231,
+									3.8405,
+									2.3915,
+									0.9408,
+									2.3915
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 591,
+								"length": 40
+							}
+						],
+						"elements": [
+							"/paragraphs/16"
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 0,
+						"content": "OFA:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2712,
+									2.3915,
+									0.9408,
+									2.3915,
+									0.9408,
+									2.6683,
+									0.2712,
+									2.6683
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 632,
+								"length": 4
+							}
+						],
+						"elements": [
+							"/paragraphs/17"
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 1,
+						"content": "1141124 / VAP /",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.9408,
+									2.3915,
+									3.8405,
+									2.3915,
+									3.8405,
+									2.6683,
+									0.9408,
+									2.6683
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 637,
+								"length": 15
+							}
+						],
+						"elements": [
+							"/paragraphs/18"
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2675,
+							1.6832,
+							3.8183,
+							1.6857,
+							3.8171,
+							2.634,
+							0.2652,
+							2.6309
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 488,
+						"length": 164
+					}
+				]
+			},
+			{
+				"rowCount": 5,
+				"columnCount": 2,
+				"cells": [
+					{
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"content": "R.U.T .:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.3346,
+									1.7162,
+									6.4801,
+									1.7162,
+									6.4801,
+									1.9099,
+									5.3346,
+									1.9155
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 653,
+								"length": 8
+							}
+						],
+						"elements": [
+							"/paragraphs/19"
+						]
+					},
+					{
+						"rowIndex": 0,
+						"columnIndex": 1,
+						"content": "76.691.181-1",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.4801,
+									1.7162,
+									8.2731,
+									1.7162,
+									8.2676,
+									1.9099,
+									6.4801,
+									1.9099
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 662,
+								"length": 12
+							}
+						],
+						"elements": [
+							"/paragraphs/20"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "Fecha Vencimiento:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.3346,
+									1.9155,
+									6.4801,
+									1.9099,
+									6.4801,
+									2.0705,
+									5.3346,
+									2.076
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 675,
+								"length": 18
+							}
+						],
+						"elements": [
+							"/paragraphs/21"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "15-07-2025",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.4801,
+									1.9099,
+									8.2676,
+									1.9099,
+									8.2676,
+									2.0705,
+									6.4801,
+									2.0705
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 694,
+								"length": 10
+							}
+						],
+						"elements": [
+							"/paragraphs/22"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"content": "Ciudad:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.3346,
+									2.076,
+									6.4801,
+									2.0705,
+									6.4801,
+									2.231,
+									5.3291,
+									2.231
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 705,
+								"length": 7
+							}
+						],
+						"elements": [
+							"/paragraphs/23"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"content": "SAN ANTONIO",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.4801,
+									2.0705,
+									8.2676,
+									2.0705,
+									8.262,
+									2.231,
+									6.4801,
+									2.231
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 713,
+								"length": 11
+							}
+						],
+						"elements": [
+							"/paragraphs/24"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 0,
+						"content": "OC Ref .:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.3291,
+									2.231,
+									6.4801,
+									2.231,
+									6.4801,
+									2.386,
+									5.3291,
+									2.3805
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 725,
+								"length": 9
+							}
+						],
+						"elements": [
+							"/paragraphs/25"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.4801,
+									2.231,
+									8.262,
+									2.231,
+									8.262,
+									2.386,
+									6.4801,
+									2.386
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 0,
+						"content": "Nave:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.3291,
+									2.3805,
+									6.4801,
+									2.386,
+									6.4801,
+									2.6683,
+									5.3291,
+									2.6628
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 735,
+								"length": 5
+							}
+						],
+						"elements": [
+							"/paragraphs/26"
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 1,
+						"content": "MSC TAKORADI VIII (25-0284)",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.4801,
+									2.386,
+									8.262,
+									2.386,
+									8.251,
+									2.6739,
+									6.4801,
+									2.6683
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 741,
+								"length": 27
+							}
+						],
+						"elements": [
+							"/paragraphs/27"
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3814,
+							1.7419,
+							8.086,
+							1.7414,
+							8.0836,
+							2.5411,
+							5.3787,
+							2.5412
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 653,
+						"length": 115
+					}
+				]
+			},
+			{
+				"rowCount": 2,
+				"columnCount": 3,
+				"cells": [
+					{
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"content": "Solicitante: AGENCIA DE ADUANA JUAN LEON VALENZU COMP",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2395,
+									2.7532,
+									4.4702,
+									2.7615,
+									4.4702,
+									2.9269,
+									0.2395,
+									2.9269
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 769,
+								"length": 53
+							}
+						],
+						"elements": [
+							"/paragraphs/28"
+						]
+					},
+					{
+						"rowIndex": 0,
+						"columnIndex": 1,
+						"content": "R.U.T .:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.4702,
+									2.7615,
+									6.1393,
+									2.7615,
+									6.1393,
+									2.9269,
+									4.4702,
+									2.9269
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 823,
+								"length": 8
+							}
+						],
+						"elements": [
+							"/paragraphs/29"
+						]
+					},
+					{
+						"rowIndex": 0,
+						"columnIndex": 2,
+						"content": "85.141.900-4",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.1393,
+									2.7615,
+									7.7754,
+									2.7615,
+									7.7754,
+									2.9269,
+									6.1393,
+									2.9269
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 832,
+								"length": 12
+							}
+						],
+						"elements": [
+							"/paragraphs/30"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "Domicilo: PRAT 856",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2395,
+									2.9269,
+									4.4702,
+									2.9269,
+									4.4619,
+									3.1172,
+									0.2395,
+									3.1255
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 845,
+								"length": 18
+							}
+						],
+						"elements": [
+							"/paragraphs/31"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "SSE:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.4702,
+									2.9269,
+									6.1393,
+									2.9269,
+									6.1393,
+									3.1172,
+									4.4619,
+									3.1172
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 864,
+								"length": 4
+							}
+						],
+						"elements": [
+							"/paragraphs/32"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 2,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.1393,
+									2.9269,
+									7.7754,
+									2.9269,
+									7.7754,
+									3.1172,
+									6.1393,
+									3.1172
+								]
+							}
+						],
+						"spans": []
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2512,
+							2.7371,
+							8.3065,
+							2.7372,
+							8.3033,
+							3.1194,
+							0.2464,
+							3.1191
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 769,
+						"length": 99
+					}
+				]
+			},
+			{
+				"rowCount": 5,
+				"columnCount": 6,
+				"cells": [
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"content": "Detalle",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2361,
+									3.2533,
+									4.6165,
+									3.2533,
+									4.6165,
+									3.4198,
+									0.2361,
+									3.4198
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 869,
+								"length": 7
+							}
+						],
+						"elements": [
+							"/paragraphs/33"
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 1,
+						"content": "Cantidad",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6165,
+									3.2533,
+									5.316,
+									3.2533,
+									5.316,
+									3.4198,
+									4.6165,
+									3.4198
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 877,
+								"length": 8
+							}
+						],
+						"elements": [
+							"/paragraphs/34"
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 2,
+						"content": "Unidad",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.316,
+									3.2533,
+									5.899,
+									3.2533,
+									5.899,
+									3.4198,
+									5.316,
+									3.4198
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 886,
+								"length": 6
+							}
+						],
+						"elements": [
+							"/paragraphs/35"
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 3,
+						"content": "Tarifa USD",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.899,
+									3.2533,
+									6.6235,
+									3.2533,
+									6.6235,
+									3.4198,
+									5.899,
+									3.4198
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 893,
+								"length": 10
+							}
+						],
+						"elements": [
+							"/paragraphs/36"
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 4,
+						"content": "Monto CLP",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.6235,
+									3.2533,
+									7.5229,
+									3.2533,
+									7.5229,
+									3.4198,
+									6.6235,
+									3.4198
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 904,
+								"length": 9
+							}
+						],
+						"elements": [
+							"/paragraphs/37"
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 5,
+						"content": "Monto USD",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									7.5229,
+									3.2533,
+									8.339,
+									3.2533,
+									8.339,
+									3.4198,
+									7.5229,
+									3.4198
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 914,
+								"length": 9
+							}
+						],
+						"elements": [
+							"/paragraphs/38"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "TRASLADO DOCUMENTAL PARA CONTENEDOR DIRECTO DIFERIDO MSDU9032903",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2361,
+									3.4198,
+									4.6165,
+									3.4198,
+									4.6165,
+									3.5531,
+									0.2361,
+									3.5448
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 924,
+								"length": 64
+							}
+						],
+						"elements": [
+							"/paragraphs/39"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "1",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6165,
+									3.4198,
+									5.316,
+									3.4198,
+									5.316,
+									3.5531,
+									4.6165,
+									3.5531
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 989,
+								"length": 1
+							}
+						],
+						"elements": [
+							"/paragraphs/40"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 2,
+						"content": "C40",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.316,
+									3.4198,
+									5.899,
+									3.4198,
+									5.899,
+									3.5531,
+									5.316,
+									3.5531
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 991,
+								"length": 3
+							}
+						],
+						"elements": [
+							"/paragraphs/41"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 3,
+						"content": "13,00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.899,
+									3.4198,
+									6.6235,
+									3.4198,
+									6.6235,
+									3.5531,
+									5.899,
+									3.5531
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 995,
+								"length": 5
+							}
+						],
+						"elements": [
+							"/paragraphs/42"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 4,
+						"content": "12.356",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.6235,
+									3.4198,
+									7.5229,
+									3.4198,
+									7.5229,
+									3.5448,
+									6.6235,
+									3.5531
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1001,
+								"length": 6
+							}
+						],
+						"elements": [
+							"/paragraphs/43"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 5,
+						"content": "13,00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									7.5229,
+									3.4198,
+									8.339,
+									3.4198,
+									8.339,
+									3.5364,
+									7.5229,
+									3.5448
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1008,
+								"length": 5
+							}
+						],
+						"elements": [
+							"/paragraphs/44"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"content": "SEGURIDAD A LA CARGA DE CONTENEDORES MSDU9032903",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2361,
+									3.5448,
+									4.6165,
+									3.5531,
+									4.6165,
+									4.5276,
+									0.2361,
+									4.5026
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1014,
+								"length": 48
+							}
+						],
+						"elements": [
+							"/paragraphs/45"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"content": "1",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6165,
+									3.5531,
+									5.316,
+									3.5531,
+									5.316,
+									4.5276,
+									4.6165,
+									4.5276
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1063,
+								"length": 1
+							}
+						],
+						"elements": [
+							"/paragraphs/46"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 2,
+						"content": "C40",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.316,
+									3.5531,
+									5.899,
+									3.5531,
+									5.899,
+									4.5276,
+									5.316,
+									4.5276
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1065,
+								"length": 3
+							}
+						],
+						"elements": [
+							"/paragraphs/47"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 3,
+						"content": "18,00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.899,
+									3.5531,
+									6.6235,
+									3.5531,
+									6.6235,
+									4.5359,
+									5.899,
+									4.5276
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1069,
+								"length": 5
+							}
+						],
+						"elements": [
+							"/paragraphs/48"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 4,
+						"content": "17.108",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.6235,
+									3.5531,
+									7.5229,
+									3.5448,
+									7.5229,
+									4.5359,
+									6.6235,
+									4.5359
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1075,
+								"length": 6
+							}
+						],
+						"elements": [
+							"/paragraphs/49"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 5,
+						"content": "18,00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									7.5229,
+									3.5448,
+									8.339,
+									3.5364,
+									8.339,
+									4.5109,
+									7.5229,
+									4.5359
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1082,
+								"length": 5
+							}
+						],
+						"elements": [
+							"/paragraphs/50"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 0,
+						"rowSpan": 2,
+						"content": "TPS VALPARAÍSO",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									0.2361,
+									4.5026,
+									4.6165,
+									4.5276,
+									4.6248,
+									7.4426,
+									0.2361,
+									7.4509
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1088,
+								"length": 14
+							}
+						],
+						"elements": [
+							"/paragraphs/51"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6165,
+									4.5276,
+									5.316,
+									4.5276,
+									5.316,
+									6.3682,
+									4.6248,
+									6.3765
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 2,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.316,
+									4.5276,
+									5.899,
+									4.5276,
+									5.899,
+									6.3682,
+									5.316,
+									6.3682
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 3,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.899,
+									4.5276,
+									6.6235,
+									4.5359,
+									6.6235,
+									6.3682,
+									5.899,
+									6.3682
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 4,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.6235,
+									4.5359,
+									7.5229,
+									4.5359,
+									7.5229,
+									6.3599,
+									6.6235,
+									6.3682
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 5,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									7.5229,
+									4.5359,
+									8.339,
+									4.5109,
+									8.339,
+									6.3432,
+									7.5229,
+									6.3599
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 1,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6248,
+									6.3765,
+									5.316,
+									6.3682,
+									5.316,
+									7.4426,
+									4.6248,
+									7.4426
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 2,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.316,
+									6.3682,
+									5.899,
+									6.3682,
+									5.8907,
+									7.4343,
+									5.316,
+									7.4426
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 3,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.899,
+									6.3682,
+									6.6235,
+									6.3682,
+									6.6318,
+									7.4343,
+									5.8907,
+									7.4343
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 4,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.6235,
+									6.3682,
+									7.5229,
+									6.3599,
+									7.5229,
+									7.426,
+									6.6318,
+									7.4343
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 5,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									7.5229,
+									6.3599,
+									8.339,
+									6.3432,
+									8.339,
+									7.4176,
+									7.5229,
+									7.426
+								]
+							}
+						],
+						"spans": []
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2374,
+							3.2069,
+							8.3549,
+							3.2097,
+							8.3512,
+							7.5121,
+							0.2334,
+							7.5077
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 869,
+						"length": 233
+					}
+				]
+			},
+			{
+				"rowCount": 4,
+				"columnCount": 4,
+				"cells": [
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"columnSpan": 2,
+						"content": "Equivalencia en otra moneda:",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6152,
+									7.7891,
+									6.5908,
+									7.7836,
+									6.5908,
+									7.994,
+									4.6152,
+									7.9995
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1551,
+								"length": 28
+							}
+						],
+						"elements": [
+							"/paragraphs/54"
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 2,
+						"columnSpan": 2,
+						"content": "",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.5908,
+									7.7836,
+									8.3118,
+									7.7836,
+									8.3063,
+									7.994,
+									6.5908,
+									7.994
+								]
+							}
+						],
+						"spans": []
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "NETO",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6152,
+									7.9995,
+									5.3623,
+									7.994,
+									5.3623,
+									8.2265,
+									4.6152,
+									8.2265
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1580,
+								"length": 4
+							}
+						],
+						"elements": [
+							"/paragraphs/55"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "$ 29.464",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.3623,
+									7.994,
+									6.5908,
+									7.994,
+									6.5908,
+									8.2209,
+									5.3623,
+									8.2265
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1585,
+								"length": 8
+							}
+						],
+						"elements": [
+							"/paragraphs/56"
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 2,
+						"columnSpan": 2,
+						"content": "USD 31,00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.5908,
+									7.994,
+									8.3063,
+									7.994,
+									8.3063,
+									8.2265,
+									6.5908,
+									8.2209
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1594,
+								"length": 9
+							}
+						],
+						"elements": [
+							"/paragraphs/57"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"content": "I.V.A. (19%)",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6152,
+									8.2265,
+									5.3623,
+									8.2265,
+									5.3623,
+									8.4368,
+									4.6097,
+									8.4368
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1604,
+								"length": 12
+							}
+						],
+						"elements": [
+							"/paragraphs/58"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"content": "$ 5.598",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.3623,
+									8.2265,
+									6.5908,
+									8.2209,
+									6.5908,
+									8.4368,
+									5.3623,
+									8.4368
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1617,
+								"length": 7
+							}
+						],
+						"elements": [
+							"/paragraphs/59"
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 2,
+						"columnSpan": 2,
+						"content": "USD 5,89",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.5908,
+									8.2209,
+									8.3063,
+									8.2265,
+									8.3063,
+									8.4368,
+									6.5908,
+									8.4368
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1625,
+								"length": 8
+							}
+						],
+						"elements": [
+							"/paragraphs/60"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 0,
+						"content": "TOTAL",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									4.6097,
+									8.4368,
+									5.3623,
+									8.4368,
+									5.3678,
+									8.841,
+									4.6097,
+									8.841
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1634,
+								"length": 5
+							}
+						],
+						"elements": [
+							"/paragraphs/61"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"content": "$ 35.062",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									5.3623,
+									8.4368,
+									6.5908,
+									8.4368,
+									6.5908,
+									8.841,
+									5.3678,
+									8.841
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1640,
+								"length": 8
+							}
+						],
+						"elements": [
+							"/paragraphs/62"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 2,
+						"content": "USD T/C: 950,43",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									6.5908,
+									8.4368,
+									7.6146,
+									8.4368,
+									7.6146,
+									8.8465,
+									6.5908,
+									8.841
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1649,
+								"length": 15
+							}
+						],
+						"elements": [
+							"/paragraphs/63"
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 3,
+						"content": "36,89",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									7.6146,
+									8.4368,
+									8.3063,
+									8.4368,
+									8.3063,
+									8.8465,
+									7.6146,
+									8.8465
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1665,
+								"length": 5
+							}
+						],
+						"elements": [
+							"/paragraphs/64"
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.5778,
+							7.7796,
+							8.3546,
+							7.7767,
+							8.3566,
+							8.8509,
+							4.5791,
+							8.8535
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 1551,
+						"length": 119
+					}
+				]
+			}
+		],
+		"paragraphs": [
+			{
+				"spans": [
+					{
+						"offset": 0,
+						"length": 18
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2558,
+							0.2009,
+							2.1901,
+							0.1965,
+							2.1919,
+							1.0004,
+							0.2577,
+							1.0048
+						]
+					}
+				],
+				"content": "TPS - VALPARAISO -"
+			},
+			{
+				"spans": [
+					{
+						"offset": 19,
+						"length": 109
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2294,
+							1.0363,
+							2.2154,
+							1.0353,
+							2.2156,
+							1.5494,
+							0.2296,
+							1.5504
+						]
+					}
+				],
+				"content": "Terminal Pacifico Sur Valparaíso S.A. CASA MATRIZ: Antonio Varas #2, piso 3, Valparaíso Fono: +56(32) 2275800"
+			},
+			{
+				"spans": [
+					{
+						"offset": 129,
+						"length": 156
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2.2422,
+							0.1834,
+							4.7796,
+							0.1795,
+							4.7803,
+							0.6305,
+							2.2429,
+							0.6344
+						]
+					}
+				],
+				"content": "GIRO: DESARROLLO, MANTENCIÓN Y EXPLOTACIÓN DEL FRENTE ATRAQUE Nº 1 DE LA EMPRESA PORTUARIA VALPARAÍSO, DESARROLLAR GIRO DE EMPRESA MUELLAJE Y ALMACENAMIENTO"
+			},
+			{
+				"spans": [
+					{
+						"offset": 286,
+						"length": 52
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.8199,
+							0.2669,
+							7.8983,
+							0.2666,
+							7.8983,
+							0.8883,
+							5.82,
+							0.8886
+						]
+					}
+				],
+				"content": "R.U.T. 96.908.870- 3 FACTURA ELECTRÓNICA N° 00526876"
+			},
+			{
+				"spans": [
+					{
+						"offset": 339,
+						"length": 19
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.0378,
+							0.9966,
+							7.6729,
+							0.9927,
+							7.6733,
+							1.1726,
+							6.0382,
+							1.1765
+						]
+					}
+				],
+				"content": "S.I.I. - VALPARAÍSO"
+			},
+			{
+				"spans": [
+					{
+						"offset": 359,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							3.0027,
+							1.158,
+							3.6683,
+							1.159,
+							3.6681,
+							1.2734,
+							3.0026,
+							1.2724
+						]
+					}
+				],
+				"content": "SUCURSAL:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 369,
+						"length": 64
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							3.001,
+							1.3065,
+							6.0205,
+							1.3078,
+							6.0205,
+							1.4292,
+							3.0009,
+							1.4279
+						]
+					}
+				],
+				"content": "Fundo Quebrada Verde S/N, Dpto 12. Camino La Pólvora, Valparaíso"
+			},
+			{
+				"spans": [
+					{
+						"offset": 434,
+						"length": 21
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							3.0027,
+							1.4283,
+							4.0385,
+							1.4297,
+							4.0382,
+							1.5429,
+							3.0025,
+							1.5406
+						]
+					}
+				],
+				"content": "Fono: +56(32) 2531366"
+			},
+			{
+				"spans": [
+					{
+						"offset": 456,
+						"length": 31
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.713,
+							1.5708,
+							8.2984,
+							1.566,
+							8.2988,
+							1.6968,
+							6.7134,
+							1.7016
+						]
+					}
+				],
+				"content": "Valparaíso, 11 de julio de 2025"
+			},
+			{
+				"spans": [
+					{
+						"offset": 488,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2712,
+							1.7162,
+							0.9408,
+							1.7217,
+							0.9408,
+							1.9155,
+							0.2712,
+							1.9155
+						]
+					}
+				],
+				"content": "Señor(es):"
+			},
+			{
+				"spans": [
+					{
+						"offset": 499,
+						"length": 40
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.9408,
+							1.7217,
+							3.8405,
+							1.7217,
+							3.8405,
+							1.9155,
+							0.9408,
+							1.9155
+						]
+					}
+				],
+				"content": "COMERCIALIZADORA DE CONFITES CHOCOL FACT"
+			},
+			{
+				"spans": [
+					{
+						"offset": 540,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2712,
+							1.9155,
+							0.9408,
+							1.9155,
+							0.9408,
+							2.0705,
+							0.2712,
+							2.0705
+						]
+					}
+				],
+				"content": "Dirección:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 551,
+						"length": 13
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.9408,
+							1.9155,
+							3.8405,
+							1.9155,
+							3.8405,
+							2.0705,
+							0.9408,
+							2.0705
+						]
+					}
+				],
+				"content": "GAVARINO 8481"
+			},
+			{
+				"spans": [
+					{
+						"offset": 565,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2712,
+							2.0705,
+							0.9408,
+							2.0705,
+							0.9408,
+							2.231,
+							0.2712,
+							2.231
+						]
+					}
+				],
+				"content": "Comuna:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 573,
+						"length": 11
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.9408,
+							2.0705,
+							3.8405,
+							2.0705,
+							3.8405,
+							2.231,
+							0.9408,
+							2.231
+						]
+					}
+				],
+				"content": "SAN ANTONIO"
+			},
+			{
+				"spans": [
+					{
+						"offset": 585,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2712,
+							2.231,
+							0.9408,
+							2.231,
+							0.9408,
+							2.3915,
+							0.2712,
+							2.3915
+						]
+					}
+				],
+				"content": "Giro:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 591,
+						"length": 40
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.9408,
+							2.231,
+							3.8405,
+							2.231,
+							3.8405,
+							2.3915,
+							0.9408,
+							2.3915
+						]
+					}
+				],
+				"content": "VENTA AL POR MENOR EN COMERCIOS ESPECIAL"
+			},
+			{
+				"spans": [
+					{
+						"offset": 632,
+						"length": 4
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2712,
+							2.3915,
+							0.9408,
+							2.3915,
+							0.9408,
+							2.6683,
+							0.2712,
+							2.6683
+						]
+					}
+				],
+				"content": "OFA:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 637,
+						"length": 15
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.9408,
+							2.3915,
+							3.8405,
+							2.3915,
+							3.8405,
+							2.6683,
+							0.9408,
+							2.6683
+						]
+					}
+				],
+				"content": "1141124 / VAP /"
+			},
+			{
+				"spans": [
+					{
+						"offset": 653,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3346,
+							1.7162,
+							6.4801,
+							1.7162,
+							6.4801,
+							1.9099,
+							5.3346,
+							1.9155
+						]
+					}
+				],
+				"content": "R.U.T .:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 662,
+						"length": 12
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.4801,
+							1.7162,
+							8.2731,
+							1.7162,
+							8.2676,
+							1.9099,
+							6.4801,
+							1.9099
+						]
+					}
+				],
+				"content": "76.691.181-1"
+			},
+			{
+				"spans": [
+					{
+						"offset": 675,
+						"length": 18
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3346,
+							1.9155,
+							6.4801,
+							1.9099,
+							6.4801,
+							2.0705,
+							5.3346,
+							2.076
+						]
+					}
+				],
+				"content": "Fecha Vencimiento:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 694,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.4801,
+							1.9099,
+							8.2676,
+							1.9099,
+							8.2676,
+							2.0705,
+							6.4801,
+							2.0705
+						]
+					}
+				],
+				"content": "15-07-2025"
+			},
+			{
+				"spans": [
+					{
+						"offset": 705,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3346,
+							2.076,
+							6.4801,
+							2.0705,
+							6.4801,
+							2.231,
+							5.3291,
+							2.231
+						]
+					}
+				],
+				"content": "Ciudad:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 713,
+						"length": 11
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.4801,
+							2.0705,
+							8.2676,
+							2.0705,
+							8.262,
+							2.231,
+							6.4801,
+							2.231
+						]
+					}
+				],
+				"content": "SAN ANTONIO"
+			},
+			{
+				"spans": [
+					{
+						"offset": 725,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3291,
+							2.231,
+							6.4801,
+							2.231,
+							6.4801,
+							2.386,
+							5.3291,
+							2.3805
+						]
+					}
+				],
+				"content": "OC Ref .:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 735,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3291,
+							2.3805,
+							6.4801,
+							2.386,
+							6.4801,
+							2.6683,
+							5.3291,
+							2.6628
+						]
+					}
+				],
+				"content": "Nave:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 741,
+						"length": 27
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.4801,
+							2.386,
+							8.262,
+							2.386,
+							8.251,
+							2.6739,
+							6.4801,
+							2.6683
+						]
+					}
+				],
+				"content": "MSC TAKORADI VIII (25-0284)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 769,
+						"length": 53
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2395,
+							2.7532,
+							4.4702,
+							2.7615,
+							4.4702,
+							2.9269,
+							0.2395,
+							2.9269
+						]
+					}
+				],
+				"content": "Solicitante: AGENCIA DE ADUANA JUAN LEON VALENZU COMP"
+			},
+			{
+				"spans": [
+					{
+						"offset": 823,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.4702,
+							2.7615,
+							6.1393,
+							2.7615,
+							6.1393,
+							2.9269,
+							4.4702,
+							2.9269
+						]
+					}
+				],
+				"content": "R.U.T .:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 832,
+						"length": 12
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.1393,
+							2.7615,
+							7.7754,
+							2.7615,
+							7.7754,
+							2.9269,
+							6.1393,
+							2.9269
+						]
+					}
+				],
+				"content": "85.141.900-4"
+			},
+			{
+				"spans": [
+					{
+						"offset": 845,
+						"length": 18
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2395,
+							2.9269,
+							4.4702,
+							2.9269,
+							4.4619,
+							3.1172,
+							0.2395,
+							3.1255
+						]
+					}
+				],
+				"content": "Domicilo: PRAT 856"
+			},
+			{
+				"spans": [
+					{
+						"offset": 864,
+						"length": 4
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.4702,
+							2.9269,
+							6.1393,
+							2.9269,
+							6.1393,
+							3.1172,
+							4.4619,
+							3.1172
+						]
+					}
+				],
+				"content": "SSE:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 869,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2361,
+							3.2533,
+							4.6165,
+							3.2533,
+							4.6165,
+							3.4198,
+							0.2361,
+							3.4198
+						]
+					}
+				],
+				"content": "Detalle"
+			},
+			{
+				"spans": [
+					{
+						"offset": 877,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.6165,
+							3.2533,
+							5.316,
+							3.2533,
+							5.316,
+							3.4198,
+							4.6165,
+							3.4198
+						]
+					}
+				],
+				"content": "Cantidad"
+			},
+			{
+				"spans": [
+					{
+						"offset": 886,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.316,
+							3.2533,
+							5.899,
+							3.2533,
+							5.899,
+							3.4198,
+							5.316,
+							3.4198
+						]
+					}
+				],
+				"content": "Unidad"
+			},
+			{
+				"spans": [
+					{
+						"offset": 893,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.899,
+							3.2533,
+							6.6235,
+							3.2533,
+							6.6235,
+							3.4198,
+							5.899,
+							3.4198
+						]
+					}
+				],
+				"content": "Tarifa USD"
+			},
+			{
+				"spans": [
+					{
+						"offset": 904,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.6235,
+							3.2533,
+							7.5229,
+							3.2533,
+							7.5229,
+							3.4198,
+							6.6235,
+							3.4198
+						]
+					}
+				],
+				"content": "Monto CLP"
+			},
+			{
+				"spans": [
+					{
+						"offset": 914,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							7.5229,
+							3.2533,
+							8.339,
+							3.2533,
+							8.339,
+							3.4198,
+							7.5229,
+							3.4198
+						]
+					}
+				],
+				"content": "Monto USD"
+			},
+			{
+				"spans": [
+					{
+						"offset": 924,
+						"length": 64
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2361,
+							3.4198,
+							4.6165,
+							3.4198,
+							4.6165,
+							3.5531,
+							0.2361,
+							3.5448
+						]
+					}
+				],
+				"content": "TRASLADO DOCUMENTAL PARA CONTENEDOR DIRECTO DIFERIDO MSDU9032903"
+			},
+			{
+				"spans": [
+					{
+						"offset": 989,
+						"length": 1
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.6165,
+							3.4198,
+							5.316,
+							3.4198,
+							5.316,
+							3.5531,
+							4.6165,
+							3.5531
+						]
+					}
+				],
+				"content": "1"
+			},
+			{
+				"spans": [
+					{
+						"offset": 991,
+						"length": 3
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.316,
+							3.4198,
+							5.899,
+							3.4198,
+							5.899,
+							3.5531,
+							5.316,
+							3.5531
+						]
+					}
+				],
+				"content": "C40"
+			},
+			{
+				"spans": [
+					{
+						"offset": 995,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.899,
+							3.4198,
+							6.6235,
+							3.4198,
+							6.6235,
+							3.5531,
+							5.899,
+							3.5531
+						]
+					}
+				],
+				"content": "13,00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1001,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.6235,
+							3.4198,
+							7.5229,
+							3.4198,
+							7.5229,
+							3.5448,
+							6.6235,
+							3.5531
+						]
+					}
+				],
+				"content": "12.356"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1008,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							7.5229,
+							3.4198,
+							8.339,
+							3.4198,
+							8.339,
+							3.5364,
+							7.5229,
+							3.5448
+						]
+					}
+				],
+				"content": "13,00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1014,
+						"length": 48
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2361,
+							3.5448,
+							4.6165,
+							3.5531,
+							4.6165,
+							4.5276,
+							0.2361,
+							4.5026
+						]
+					}
+				],
+				"content": "SEGURIDAD A LA CARGA DE CONTENEDORES MSDU9032903"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1063,
+						"length": 1
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.6165,
+							3.5531,
+							5.316,
+							3.5531,
+							5.316,
+							4.5276,
+							4.6165,
+							4.5276
+						]
+					}
+				],
+				"content": "1"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1065,
+						"length": 3
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.316,
+							3.5531,
+							5.899,
+							3.5531,
+							5.899,
+							4.5276,
+							5.316,
+							4.5276
+						]
+					}
+				],
+				"content": "C40"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1069,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.899,
+							3.5531,
+							6.6235,
+							3.5531,
+							6.6235,
+							4.5359,
+							5.899,
+							4.5276
+						]
+					}
+				],
+				"content": "18,00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1075,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.6235,
+							3.5531,
+							7.5229,
+							3.5448,
+							7.5229,
+							4.5359,
+							6.6235,
+							4.5359
+						]
+					}
+				],
+				"content": "17.108"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1082,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							7.5229,
+							3.5448,
+							8.339,
+							3.5364,
+							8.339,
+							4.5109,
+							7.5229,
+							4.5359
+						]
+					}
+				],
+				"content": "18,00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1088,
+						"length": 14
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2361,
+							4.5026,
+							4.6165,
+							4.5276,
+							4.6248,
+							7.4426,
+							0.2361,
+							7.4509
+						]
+					}
+				],
+				"content": "TPS VALPARAÍSO"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1103,
+						"length": 40
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.3064,
+							7.5131,
+							2.865,
+							7.5126,
+							2.8651,
+							7.6443,
+							0.3064,
+							7.6448
+						]
+					}
+				],
+				"content": "SON: TREINTA Y SEIS CON 89 / 100 DOLARES"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1144,
+						"length": 406
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2621,
+							7.7947,
+							4.5004,
+							7.797,
+							4.5001,
+							8.3538,
+							0.2618,
+							8.3514
+						]
+					}
+				],
+				"content": "Terminal Pacífico Sur Valparaíso S.A posee un Modelo de Prevención de Delitos. El cliente y sus representantes no cometerán delitos de corrupción establecidos en la Ley 20.393 ni cualquier otro que se incorpore a futuro en la Ley indicada. El cliente denunciará en caso que se observe cualquier delito de corrupción contenido en dicha Ley a través del siguiente Canal de Denuncias: https://www.eticatps.cl."
+			},
+			{
+				"spans": [
+					{
+						"offset": 1551,
+						"length": 28
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.6152,
+							7.7891,
+							6.5908,
+							7.7836,
+							6.5908,
+							7.994,
+							4.6152,
+							7.9995
+						]
+					}
+				],
+				"content": "Equivalencia en otra moneda:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1580,
+						"length": 4
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.6152,
+							7.9995,
+							5.3623,
+							7.994,
+							5.3623,
+							8.2265,
+							4.6152,
+							8.2265
+						]
+					}
+				],
+				"content": "NETO"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1585,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3623,
+							7.994,
+							6.5908,
+							7.994,
+							6.5908,
+							8.2209,
+							5.3623,
+							8.2265
+						]
+					}
+				],
+				"content": "$ 29.464"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1594,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.5908,
+							7.994,
+							8.3063,
+							7.994,
+							8.3063,
+							8.2265,
+							6.5908,
+							8.2209
+						]
+					}
+				],
+				"content": "USD 31,00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1604,
+						"length": 12
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.6152,
+							8.2265,
+							5.3623,
+							8.2265,
+							5.3623,
+							8.4368,
+							4.6097,
+							8.4368
+						]
+					}
+				],
+				"content": "I.V.A. (19%)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1617,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3623,
+							8.2265,
+							6.5908,
+							8.2209,
+							6.5908,
+							8.4368,
+							5.3623,
+							8.4368
+						]
+					}
+				],
+				"content": "$ 5.598"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1625,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.5908,
+							8.2209,
+							8.3063,
+							8.2265,
+							8.3063,
+							8.4368,
+							6.5908,
+							8.4368
+						]
+					}
+				],
+				"content": "USD 5,89"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1634,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							4.6097,
+							8.4368,
+							5.3623,
+							8.4368,
+							5.3678,
+							8.841,
+							4.6097,
+							8.841
+						]
+					}
+				],
+				"content": "TOTAL"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1640,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							5.3623,
+							8.4368,
+							6.5908,
+							8.4368,
+							6.5908,
+							8.841,
+							5.3678,
+							8.841
+						]
+					}
+				],
+				"content": "$ 35.062"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1649,
+						"length": 15
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							6.5908,
+							8.4368,
+							7.6146,
+							8.4368,
+							7.6146,
+							8.8465,
+							6.5908,
+							8.841
+						]
+					}
+				],
+				"content": "USD T/C: 950,43"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1665,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							7.6146,
+							8.4368,
+							8.3063,
+							8.4368,
+							8.3063,
+							8.8465,
+							7.6146,
+							8.8465
+						]
+					}
+				],
+				"content": "36,89"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1671,
+						"length": 22
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1.7378,
+							9.8807,
+							2.849,
+							9.8806,
+							2.849,
+							9.9999,
+							1.7378,
+							9.9999
+						]
+					}
+				],
+				"content": "Timbre Electrónico SII"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1694,
+						"length": 47
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.9122,
+							10.0369,
+							3.5509,
+							10.0365,
+							3.551,
+							10.1643,
+							0.9123,
+							10.1647
+						]
+					}
+				],
+				"content": "Res. 80 de 2014 Verifique documento: www.sii.cl"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1742,
+						"length": 39
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.9933,
+							10.6789,
+							3.5308,
+							10.6767,
+							3.5309,
+							10.8032,
+							0.9934,
+							10.8054
+						]
+					}
+				],
+				"content": "2710CLP74150000076691181100000000526876"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1782,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							7.6207,
+							10.6828,
+							8.3173,
+							10.6839,
+							8.3171,
+							10.8251,
+							7.6205,
+							10.824
+						]
+					}
+				],
+				"role": "pageFooter",
+				"content": "ORIGINAL"
+			}
+		],
+		"styles": [],
+		"contentFormat": "text",
+		"sections": [
+			{
+				"spans": [
+					{
+						"offset": 0,
+						"length": 1781
+					}
+				],
+				"elements": [
+					"/figures/0",
+					"/paragraphs/1",
+					"/paragraphs/2",
+					"/paragraphs/3",
+					"/paragraphs/4",
+					"/paragraphs/5",
+					"/paragraphs/6",
+					"/paragraphs/7",
+					"/paragraphs/8",
+					"/tables/0",
+					"/tables/1",
+					"/tables/2",
+					"/tables/3",
+					"/paragraphs/52",
+					"/paragraphs/53",
+					"/tables/4",
+					"/paragraphs/65",
+					"/paragraphs/66",
+					"/paragraphs/67"
+				]
+			}
+		],
+		"figures": [
+			{
+				"id": "1.1",
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0.2629,
+							0.206,
+							2.2272,
+							0.2056,
+							2.228,
+							1.0817,
+							0.2635,
+							1.082
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 18
+					}
+				],
+				"elements": [
+					"/paragraphs/0"
+				]
+			}
+		]
+	}
+}
