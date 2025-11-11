@@ -1,7 +1,19 @@
 # requirements.txt
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+
+httpx
+
 PyMuPDF
 python-doctr[torch]
 opencv-python
 numpy
-requests
+
+azure-ai-formrecognizer
+azure-core
+
 python-dotenv
+

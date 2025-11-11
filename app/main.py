@@ -1,46 +1,62 @@
-from fastapi import FastAPI, UploadFile, Request, Form
-from fastapi.responses import HTMLResponse
-from fastapi.templating import Jinja2Templates
-from dotenv import load_dotenv
-import os
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from app.core.config import get_settings
+from app.api.routes import sgd, documents, training
 
-from service_di import LocalDIService
+settings = get_settings()
 
-load_dotenv()
+app = FastAPI(
+    title=settings.API_TITLE,
+    version=settings.API_VERSION,
+    description="""
+API para procesamiento automático de documentos aduaneros.
 
-LOCAL_ENDPOINT = "http://azure-di-custom:5000"
-DI_MODELS = ["transport_01", "inovice_01"]
+## Características
 
-app = FastAPI(title="Azure Document Intelligence Local Tester")
+- **SGD Integration**: Consulta y procesamiento de despachos
+- **Document Classification**: Identificación automática de tipos de documentos
+- **Data Extraction**: Extracción de datos usando Azure Document Intelligence
+- **Model Training**: Entrenamiento de modelos personalizados
+- **Quality Metrics**: Análisis de calidad y orientación de documentos
+- **Performance Tracking**: Métricas de tiempo para cada operación
 
-templates = Jinja2Templates(directory="templates")
+## Flujo de Trabajo
 
-service = LocalDIService(LOCAL_ENDPOINT, os.getenv("AZURE_KEY"))
+1. Obtener despacho desde SGD o cargar documento
+2. Clasificar documentos (identifica tipos)
+3. Extraer datos con modelos entrenados
+4. Recibir respuesta con métricas y alertas de calidad
+"""
+)
+
+# CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Incluir routers
+app.include_router(sgd.router, prefix="/api/v1")
+app.include_router(documents.router, prefix="/api/v1")
+app.include_router(training.router, prefix="/api/v1")
 
 
-@app.get("/", response_class=HTMLResponse)
-async def home(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request, "models": DI_MODELS})
+@app.get("/")
+async def root():
+    return {
+        "message": "Customs Document Processor API",
+        "version": settings.API_VERSION,
+        "docs": "/docs",
+        "health": "/health"
+    }
 
 
-@app.post("/process", response_class=HTMLResponse)
-async def process_file(
-    request: Request,
-    model: str = Form(...),
-    file: UploadFile = UploadFile(...)
-):
-    pdf_bytes = await file.read()
-    result = service.analyze(model, pdf_bytes)
-
-    extracted = {}
-    if result.documents:
-        doc = result.documents[0]
-        for key, field in doc.fields.items():
-            extracted[key] = field.value
-
-    return templates.TemplateResponse("index.html", {
-        "request": request,
-        "models": DI_MODELS,
-        "selected_model": model,
-        "extracted": extracted,
-    })
+@app.get("/health")
+async def health():
+    return {
+        "status": "healthy",
+        "version": settings.API_VERSION
+    }
