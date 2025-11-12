@@ -208,8 +208,21 @@ class DocumentClassifier:
         if orientation != 0:
             self.correct_rotation(page, orientation)
         
+        # 1. Intento de clasificación inicial con el modo solicitado
         header_text = self.extract_header_text(page, mode)
         classification = self.classify_text(header_text)
+        
+        # 2. Lógica de Fallback a OCR (extendida para cubrir NATIVE y el error de HYBRID)
+        # Si la clasificación falló Y el modo no era OCR, se fuerza el intento con OCR.
+        if not classification and mode in ["NATIVE", "HYBRID"]:
+            # Realizar una extracción forzada usando OCR para el encabezado
+            # Esto corrige el problema donde HYBRID devuelve texto nativo fragmentado y omite el OCR.
+            ocr_header_text = self.extract_header_text(page, "OCR")
+            fallback_classification = self.classify_text(ocr_header_text)
+            
+            # Si el OCR encuentra una clasificación, la usa
+            if fallback_classification:
+                classification = fallback_classification
         
         return {
             "page_index": page_idx,
