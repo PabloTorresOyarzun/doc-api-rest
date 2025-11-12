@@ -1,9 +1,11 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, status
 from app.models.requests import SGDProcessRequest
 from app.models.responses import ProcessResponse, DispatchInfoResponse
 from app.services.sgd_service import SGDService
 from app.services.document_processor import DocumentProcessor
 from datetime import datetime
+from app.utils.metrics import Timer
+
 
 router = APIRouter(prefix="/sgd", tags=["SGD"])
 
@@ -51,7 +53,6 @@ async def classify_dispatch(request: SGDProcessRequest):
     Clasifica los documentos de un despacho sin extraer datos.
     
     - **dispatch_code**: Código del despacho
-    - **extraction_mode**: HYBRID (recomendado), NATIVE o OCR
     """
     dispatch_info, documents = await sgd_service.fetch_dispatch_data(request.dispatch_code)
     
@@ -68,10 +69,24 @@ async def classify_dispatch(request: SGDProcessRequest):
         )
     
     # Procesar solo clasificación
-    from app.utils.metrics import Timer
-    
     global_timing = {}
     processed_docs = []
+    
+    FIXED_EXTRACTION_MODE = "HYBRID"
+    
+    # Valores por defecto para satisfacer el modelo ProcessedDocument (Pydantic)
+    DEFAULT_TIMING = {
+        "fetch_time_ms": 0,
+        "classification_time_ms": 0,
+        "extraction_time_ms": 0,
+        "total_time_ms": 0,
+    }
+    DEFAULT_QUALITY = {
+        "is_scanned": False,
+        "orientation_degrees": 0,
+        "orientation_correct": True,
+        "has_native_text": False
+    }
     
     with Timer() as t:
         for doc_data in documents:
@@ -79,7 +94,7 @@ async def classify_dispatch(request: SGDProcessRequest):
             
             segments = await processor.classifier.segment_document(
                 pdf_bytes,
-                request.extraction_mode.value
+                FIXED_EXTRACTION_MODE
             )
             
             for segment in segments:
@@ -88,8 +103,8 @@ async def classify_dispatch(request: SGDProcessRequest):
                     "document_name": doc_data.get("nombre_documento", "unknown.pdf"),
                     "document_type": segment["classification"],
                     "page_range": f"{segment['start_page'] + 1}-{segment['end_page'] + 1}",
-                    "quality": None,
-                    "timing": None,
+                    "quality": DEFAULT_QUALITY,
+                    "timing": DEFAULT_TIMING,
                     "extracted_data": None
                 })
     
@@ -113,18 +128,16 @@ async def process_dispatch(request: SGDProcessRequest):
     Procesa completamente un despacho: clasifica documentos y extrae datos.
     
     - **dispatch_code**: Código del despacho
-    - **extraction_mode**: HYBRID (recomendado), NATIVE o OCR
     - **use_cloud**: true para usar Azure DI cloud, false para local
     """
     result = await processor.process_sgd_dispatch(
         dispatch_code=request.dispatch_code,
-        extraction_mode=request.extraction_mode.value,
         use_cloud=request.use_cloud
     )
     
     if not result["success"]:
         raise HTTPException(
-            status_code=500,
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=result.get("error", "Processing failed")
         )
     

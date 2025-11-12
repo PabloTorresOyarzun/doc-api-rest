@@ -16,11 +16,11 @@ class DocumentProcessor:
     def __init__(self):
         self.sgd_service = SGDService()
         self.classifier = DocumentClassifier()
-    
+        self.FIXED_EXTRACTION_MODE = "HYBRID"
+
     async def process_sgd_dispatch(
         self,
         dispatch_code: str,
-        extraction_mode: str,
         use_cloud: bool
     ) -> Dict:
         """
@@ -28,7 +28,6 @@ class DocumentProcessor:
         
         Args:
             dispatch_code: Código del despacho
-            extraction_mode: Modo de extracción de texto (HYBRID, NATIVE, OCR) 
             use_cloud: Usar Azure DI cloud
             
         Returns:
@@ -65,7 +64,6 @@ class DocumentProcessor:
             for doc_data in documents:
                 doc_result = await self._process_single_document(
                     doc_data,
-                    extraction_mode,
                     use_cloud
                 )
                 processed_docs.append(doc_result["document"])
@@ -87,7 +85,6 @@ class DocumentProcessor:
         self,
         pdf_bytes: bytes,
         filename: str,
-        extraction_mode: str,
         use_cloud: bool
     ) -> Dict:
         """
@@ -96,7 +93,6 @@ class DocumentProcessor:
         Args:
             pdf_bytes: Bytes del PDF
             filename: Nombre del archivo
-            extraction_mode: Modo de extracción (HYBRID, NATIVE, OCR)
             use_cloud: Usar Azure DI cloud
             
         Returns:
@@ -114,7 +110,6 @@ class DocumentProcessor:
         with Timer() as t:
             doc_result = await self._process_single_document(
                 doc_data,
-                extraction_mode,
                 use_cloud,
                 is_base64=False
             )
@@ -134,8 +129,7 @@ class DocumentProcessor:
     async def classify_uploaded_document(
         self,
         pdf_bytes: bytes,
-        filename: str,
-        extraction_mode: str
+        filename: str
     ) -> Dict:
         """
         Clasifica un documento subido sin extraer datos.
@@ -143,7 +137,6 @@ class DocumentProcessor:
         Args:
             pdf_bytes: Bytes del PDF
             filename: Nombre del archivo
-            extraction_mode: Modo de extracción (HYBRID, NATIVE, OCR)
             
         Returns:
             Diccionario con la clasificación
@@ -151,7 +144,7 @@ class DocumentProcessor:
         global_timing = {}
         
         with Timer() as t:
-            segments = await self.classifier.segment_document(pdf_bytes, extraction_mode)
+            segments = await self.classifier.segment_document(pdf_bytes, self.FIXED_EXTRACTION_MODE)
         
         global_timing["classification_time_ms"] = t.get_elapsed_ms()
         global_timing["total_time_ms"] = t.get_elapsed_ms()
@@ -162,7 +155,7 @@ class DocumentProcessor:
                 "document_type": segment["classification"],
                 "page_range": f"{segment['start_page'] + 1}-{segment['end_page'] + 1}",
                 "page_count": segment["page_count"],
-                # ADICIÓN CLAVE: Incluir la calidad del documento (tomada de la primera página)
+                # Incluir la calidad del documento (tomada de la primera página)
                 "quality": segment.get("quality_metrics", {
                     "is_scanned": False,
                     "orientation_degrees": 0,
@@ -181,7 +174,6 @@ class DocumentProcessor:
     async def _process_single_document(
         self,
         doc_data: Dict,
-        extraction_mode: str,
         use_cloud: bool,
         is_base64: bool = True
     ) -> Dict:
@@ -203,7 +195,7 @@ class DocumentProcessor:
         
         # Clasificar documento
         with Timer() as t:
-            segments = await self.classifier.segment_document(pdf_bytes, extraction_mode)
+            segments = await self.classifier.segment_document(pdf_bytes, self.FIXED_EXTRACTION_MODE)
         
         doc_timing["classification_time_ms"] = t.get_elapsed_ms()
         
@@ -225,7 +217,7 @@ class DocumentProcessor:
         page_range = f"{main_segment['start_page'] + 1}-{main_segment['end_page'] + 1}"
         
         # Analizar calidad del documento
-        quality = await self._analyze_document_quality(pdf_bytes, extraction_mode)
+        quality = await self._analyze_document_quality(pdf_bytes)
         
         # Generar alertas de calidad
         if quality.is_scanned:
@@ -277,9 +269,9 @@ class DocumentProcessor:
             "alerts": alerts
         }
     
-    async def _analyze_document_quality(self, pdf_bytes: bytes, mode: str) -> DocumentQuality:
+    async def _analyze_document_quality(self, pdf_bytes: bytes) -> DocumentQuality:
         """Analiza la calidad de un documento."""
-        page_results = await self.classifier.classify_document(pdf_bytes, mode)
+        page_results = await self.classifier.classify_document(pdf_bytes, self.FIXED_EXTRACTION_MODE)
         
         if not page_results:
             return DocumentQuality(
@@ -312,7 +304,8 @@ class DocumentProcessor:
             })
         
         return DispatchInfo(
-            dispatch_code=dispatch_data.get("codigo", "N/A"),
+            # Corregido: Se asegura que el código de despacho sea una cadena (str)
+            dispatch_code=str(dispatch_data.get("codigo", "N/A")), 
             internal_id=str(dispatch_data.get("id", "N/A")),
             client_name=dispatch_data.get("cliente", {}).get("nombre", "N/A"),
             status=dispatch_data.get("estado_despacho", "N/A"),
