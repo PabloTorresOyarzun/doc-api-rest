@@ -22,6 +22,7 @@ pnpm-debug.log*
 /log
 /tmp
 *.log
+/logs
 
 # Directorios de IDEs (opcional, pero recomendado)
 .idea/ # Directorio de configuración de IntelliJ/WebStorm
@@ -38,3 +39,9 @@ __pycache__/ # Python
 *.zip
 *.tar
 *.rar
+
+# otros
+.data/
+/data
+./shared
+/shared

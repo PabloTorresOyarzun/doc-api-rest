@@ -69,6 +69,8 @@ class DocumentClassifier:
             
             img_normalized = img_np.astype(np.float32) / 255.0
             
+            # NOTE: Se asume que initialize_ocr() es llamado por classify_document antes.
+            # En caso de necesitarlo, descomentar self.initialize_ocr() aquí.
             result = self.ocr_engine([img_normalized])
             confidence_0 = 0
             words_0 = 0
@@ -131,7 +133,8 @@ class DocumentClassifier:
             page.rect.y1 * self.settings.HEADER_PERCENTAGE
         )
         
-        if mode in ["NATIVO", "HIBRIDO"]:
+        # CORRECCIÓN: Usar modos en inglés que coincidan con la entrada de la API
+        if mode in ["NATIVE", "HYBRID"]:
             try:
                 native_text = page.get_text("text", sort=True, clip=header_rect)
                 clean = self.clean_text(native_text)
@@ -140,8 +143,10 @@ class DocumentClassifier:
             except Exception:
                 pass
         
-        if mode in ["OCR", "HIBRIDO"]:
+        # CORRECCIÓN: Usar modos en inglés que coincidan con la entrada de la API
+        if mode in ["OCR", "HYBRID"]:
             try:
+                # Se asume que initialize_ocr() es llamado por classify_document antes
                 pix = page.get_pixmap(
                     matrix=fitz.Matrix(self.settings.OCR_DPI / 72, self.settings.OCR_DPI / 72),
                     clip=header_rect
@@ -215,13 +220,13 @@ class DocumentClassifier:
             "orientation_correct": orientation == 0
         }
     
-    async def classify_document(self, pdf_bytes: bytes, mode: str = "HIBRIDO") -> List[Dict]:
+    async def classify_document(self, pdf_bytes: bytes, mode: str = "HYBRID") -> List[Dict]:
         """
         Clasifica un documento PDF y devuelve la información de cada página.
         
         Args:
             pdf_bytes: Bytes del PDF
-            mode: Modo de extracción (HIBRIDO, NATIVO, OCR)
+            mode: Modo de extracción (HYBRID, NATIVE, OCR)
             
         Returns:
             Lista de diccionarios con información de cada página
@@ -231,6 +236,9 @@ class DocumentClassifier:
         doc = fitz.open(stream=pdf_bytes, filetype="pdf")
         num_pages = doc.page_count
         
+        # Convertir modo a mayúsculas una vez para consistencia
+        mode_upper = mode.upper()
+        
         loop = asyncio.get_event_loop()
         tasks = [
             loop.run_in_executor(
@@ -238,7 +246,7 @@ class DocumentClassifier:
                 self.process_page,
                 doc,
                 i,
-                mode
+                mode_upper # Pasar el modo en mayúsculas
             )
             for i in range(num_pages)
         ]
@@ -248,7 +256,7 @@ class DocumentClassifier:
         
         return list(results)
     
-    async def segment_document(self, pdf_bytes: bytes, mode: str = "HIBRIDO") -> List[Dict]:
+    async def segment_document(self, pdf_bytes: bytes, mode: str = "HYBRID") -> List[Dict]:
         """
         Segmenta un documento PDF en múltiples documentos según clasificación.
         
@@ -257,7 +265,7 @@ class DocumentClassifier:
             mode: Modo de extracción
             
         Returns:
-            Lista de segmentos con información de clasificación y rangos de páginas
+            Lista de segmentos con información de clasificación, rangos de páginas y calidad
         """
         page_results = await self.classify_document(pdf_bytes, mode)
         
@@ -288,7 +296,14 @@ class DocumentClassifier:
                     "start_page": start_idx,
                     "end_page": i - 1,
                     "classification": current_classification,
-                    "page_count": i - start_idx
+                    "page_count": i - start_idx,
+                    # ADICIÓN CLAVE: Incluir métricas de calidad de la página de inicio
+                    "quality_metrics": {
+                        "is_scanned": page_results[start_idx].get("is_scanned", False),
+                        "orientation_degrees": page_results[start_idx].get("orientation", 0),
+                        "orientation_correct": page_results[start_idx].get("orientation_correct", True),
+                        "has_native_text": page_results[start_idx].get("has_native_text", False)
+                    }
                 })
                 start_idx = i
                 current_classification = found_classification
@@ -298,7 +313,14 @@ class DocumentClassifier:
             "start_page": start_idx,
             "end_page": len(page_results) - 1,
             "classification": current_classification,
-            "page_count": len(page_results) - start_idx
+            "page_count": len(page_results) - start_idx,
+            # ADICIÓN CLAVE: Incluir métricas de calidad de la página de inicio
+            "quality_metrics": {
+                "is_scanned": page_results[start_idx].get("is_scanned", False),
+                "orientation_degrees": page_results[start_idx].get("orientation", 0),
+                "orientation_correct": page_results[start_idx].get("orientation_correct", True),
+                "has_native_text": page_results[start_idx].get("has_native_text", False)
+            }
         })
         
         return segments

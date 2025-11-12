@@ -28,7 +28,7 @@ class DocumentProcessor:
         
         Args:
             dispatch_code: Código del despacho
-            extraction_mode: Modo de extracción de texto
+            extraction_mode: Modo de extracción de texto (HYBRID, NATIVE, OCR) 
             use_cloud: Usar Azure DI cloud
             
         Returns:
@@ -96,7 +96,7 @@ class DocumentProcessor:
         Args:
             pdf_bytes: Bytes del PDF
             filename: Nombre del archivo
-            extraction_mode: Modo de extracción
+            extraction_mode: Modo de extracción (HYBRID, NATIVE, OCR)
             use_cloud: Usar Azure DI cloud
             
         Returns:
@@ -143,7 +143,7 @@ class DocumentProcessor:
         Args:
             pdf_bytes: Bytes del PDF
             filename: Nombre del archivo
-            extraction_mode: Modo de extracción
+            extraction_mode: Modo de extracción (HYBRID, NATIVE, OCR)
             
         Returns:
             Diccionario con la clasificación
@@ -161,7 +161,14 @@ class DocumentProcessor:
             documents.append({
                 "document_type": segment["classification"],
                 "page_range": f"{segment['start_page'] + 1}-{segment['end_page'] + 1}",
-                "page_count": segment["page_count"]
+                "page_count": segment["page_count"],
+                # ADICIÓN CLAVE: Incluir la calidad del documento (tomada de la primera página)
+                "quality": segment.get("quality_metrics", {
+                    "is_scanned": False,
+                    "orientation_degrees": 0,
+                    "orientation_correct": True,
+                    "has_native_text": False
+                })
             })
         
         return {
